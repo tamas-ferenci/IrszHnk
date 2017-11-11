@@ -1,6 +1,6 @@
 library( XLConnect )
 
-IrszUrl <- "https://www.posta.hu/static/internet/download/Iranyitoszam_Internet.xls"
+IrszUrl <- "https://www.posta.hu/static/internet/download/Iranyitoszam-Internet.XLS"
 HnkUrl <- "http://www.ksh.hu/docs/hun/hnk/hnk_2016.xls"
 
 temp <- tempfile()
