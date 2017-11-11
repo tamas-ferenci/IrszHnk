@@ -37,4 +37,6 @@ names( Irsz )[ 2 ] <- names( Hnk )[ 1 ]
 
 IrszHnk <- merge( Irsz, Hnk )
 
+IrszHnk <- IrszHnk[ !duplicated( IrszHnk ), ]
+
 write.csv2( IrszHnk, "IrszHnk.csv", row.names = FALSE )
