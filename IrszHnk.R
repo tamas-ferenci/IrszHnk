@@ -25,17 +25,18 @@ unlink( temp )
 temp <- tempfile()
 download.file( HnkUrl, temp, mode = "wb" )
 Hnk <- readWorksheetFromFile( temp, sheet = 1, startRow = 2 )
-names( Hnk )[ 1:3 ] <- paste0( names( Hnk )[1], ".", Hnk[ 1, 1:3 ] )
-names( Hnk )[ 5:7 ] <- paste0( names( Hnk )[5], Hnk[ 1, 5:7 ] )
-names( Hnk )[ 8:9 ] <- paste0( names( Hnk )[8], ".", Hnk[ 1, 8:9 ] )
-names( Hnk )[ 14:26 ] <- paste0( names( Hnk )[14], ".", Hnk[ 1, 14:26 ] )
+Hnk <- Hnk[ !is.na( Hnk$Helység ), ]
+names( Hnk )[ 1:3 ] <- paste0( names( Hnk )[ 1 ], ".", Hnk[ 1, 1:3 ] )
+names( Hnk )[ 5:7 ] <- paste0( names( Hnk )[ 5 ], Hnk[ 1, 5:7 ] )
+names( Hnk )[ 8:9 ] <- paste0( names( Hnk )[ 8 ], ".", Hnk[ 1, 8:9 ] )
+names( Hnk )[ 14:26 ] <- paste0( names( Hnk )[ 14 ], ".", Hnk[ 1, 14:26 ] )
 names( Hnk ) <- trimws( names( Hnk ) )
 Hnk <- Hnk[ -1, ]
 unlink( temp )
 
 names( Irsz )[ 2 ] <- names( Hnk )[ 1 ]
 
-IrszHnk <- merge( Irsz, Hnk )
+IrszHnk <- merge( Irsz, Hnk, by = "Helység.megnevezése" )
 
 IrszHnk <- IrszHnk[ !duplicated( IrszHnk ), ]
 
