@@ -21,6 +21,7 @@ for ( t in c( "Miskolc", "Debrecen", "Szeged", "Pécs", "Győr" ) ) {
   IrszTemp$Település <- t
   IrszTemp$Településrész <- ""
   Irsz <- rbind( Irsz, IrszTemp[ , c( "IRSZ", "Település", "Településrész" ) ] )
+  XLConnect::xlcFreeMemory()
 }
 unlink( temp )
 Irsz <- Irsz[ !duplicated( Irsz ), ]
