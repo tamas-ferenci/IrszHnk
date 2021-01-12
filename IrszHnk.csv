@@ -1,4 +1,4 @@
-"Helység.megnevezése";"IRSZ";"Településrész";"Helység.KSH kódja";"Helység.jogállása";"Megye.megnevezése.";"Járás.kódja";"Járás.neve";"Járás.székhelye";"Polgármesteri.hivatal..közös.önkormányzati.hivatal.kódja";"Polgármesteri.hivatal..közös.önkormányzati.hivatal.székhelye";"Terület...hektár.";"Lakó.népesség";"Lakások.száma";"Becsült.terület.adatokkal";"Nemzetiségi.önkormányzat.bolgár";"Nemzetiségi.önkormányzat.görög";"Nemzetiségi.önkormányzat.horvát";"Nemzetiségi.önkormányzat.lengyel";"Nemzetiségi.önkormányzat.német";"Nemzetiségi.önkormányzat.örmény";"Nemzetiségi.önkormányzat.roma";"Nemzetiségi.önkormányzat.román";"Nemzetiségi.önkormányzat.ruszin";"Nemzetiségi.önkormányzat.szerb";"Nemzetiségi.önkormányzat.szlovák";"Nemzetiségi.önkormányzat.szlovén";"Nemzetiségi.önkormányzat.ukrán"
+"Helység.megnevezése";"IRSZ";"Településrész";"Helység.KSH kódja";"Helység.jogállása";"Megye megnevezése";"Járáskódja";"Járásneve";"Járásszékhelye";"Polgármesteri hivatal, közös önkormányzati hivatal.kódja";"Polgármesteri hivatal, közös önkormányzati hivatal.székhelye";"Terület  (hektár)";"Lakó-népesség";"Lakások száma";"Becsült terület-adatokkal";"Nemzetiségi önkormányzat.bolgár";"Nemzetiségi önkormányzat.görög";"Nemzetiségi önkormányzat.horvát";"Nemzetiségi önkormányzat.lengyel";"Nemzetiségi önkormányzat.német";"Nemzetiségi önkormányzat.örmény";"Nemzetiségi önkormányzat.roma";"Nemzetiségi önkormányzat.román";"Nemzetiségi önkormányzat.ruszin";"Nemzetiségi önkormányzat.szerb";"Nemzetiségi önkormányzat.szlovák";"Nemzetiségi önkormányzat.szlovén";"Nemzetiségi önkormányzat.ukrán"
 "Aba";8127;NA;"17376";"város";"Fejér";"085 0";"Székesfehérvári";"Székesfehérvár";"1";"–";8805;4428;1549;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Abádszalók";5241;NA;"12441";"város";"Jász-Nagykun-Szolnok";"164 0";"Kunhegyesi";"Kunhegyes";"2";"Helyben – Locally";13223;4042;2038;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Abaliget";7678;NA;"12548";"község";"Baranya";"028 0";"Pécsi";"Pécs";"5";"Orfû";1609;647;241;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
@@ -30,7 +30,7 @@
 "Aggtelek";3759;NA;"09362";"község";"Borsod-Abaúj-Zemplén";"063 0";"Putnoki";"Putnok";"2";"Helyben – Locally";4382;506;241;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Agyagosszergény";9441;NA;"29407";"község";"Gyõr-Moson-Sopron";"088 0";"Kapuvári";"Kapuvár";"6";"Vitnyéd";1989;945;382;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Ajak";4524;NA;"08776";"város";"Szabolcs-Szatmár-Bereg";"153 0";"Kisvárdai";"Kisvárda";"1";"–";2476;3537;1327;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Ajka";8400;" ";"06673";"város";"Veszprém";"183 1";"Ajkai";"Ajka";"2";"Helyben – Locally";9505;27736;12591;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
+"Ajka";8400;NA;"06673";"város";"Veszprém";"183 1";"Ajkai";"Ajka";"2";"Helyben – Locally";9505;27736;12591;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Ajka";8451;"Padragkút";"06673";"város";"Veszprém";"183 1";"Ajkai";"Ajka";"2";"Helyben – Locally";9505;27736;12591;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Ajka";8447;"Ajkarendek";"06673";"város";"Veszprém";"183 1";"Ajkai";"Ajka";"2";"Helyben – Locally";9505;27736;12591;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Ajka";8448;"Bakonygyepes";"06673";"város";"Veszprém";"183 1";"Ajkai";"Ajka";"2";"Helyben – Locally";9505;27736;12591;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
@@ -171,7 +171,7 @@
 "Balaton";3347;NA;"11527";"község";"Heves";"103 0";"Bélapátfalvai";"Bélapátfalva";"2";"Helyben – Locally";1320;1002;447;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Balatonakali";8243;NA;"25308";"község";"Veszprém";"185 0";"Balatonfüredi";"Balatonfüred";"6";"Tihany";3620;664;346;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Balatonakarattya";8172;NA;"34421";"község";"Veszprém";"184 0";"Balatonalmádi";"Balatonalmádi";"6";"Balatonfõkajár";2139;862;475;"*";NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
-"Balatonalmádi";8220;" ";"05838";"város";"Veszprém";"184 1";"Balatonalmádi";"Balatonalmádi";"2";"Helyben – Locally";4988;9060;4438;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+"Balatonalmádi";8220;NA;"05838";"város";"Veszprém";"184 1";"Balatonalmádi";"Balatonalmádi";"2";"Helyben – Locally";4988;9060;4438;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Balatonberény";8649;NA;"27377";"község";"Somogy";"144 0";"Marcali";"Marcali";"6";"Balatonkeresztúr";2609;1049;655;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Balatonboglár";8630;NA;"33853";"város";"Somogy";"142 0";"Fonyódi";"Fonyód";"2";"Helyben – Locally";3204;5456;2805;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Balatonboglár";8691;"Szõlõskislak";"33853";"város";"Somogy";"142 0";"Fonyódi";"Fonyód";"2";"Helyben – Locally";3204;5456;2805;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -242,9 +242,8 @@
 "Bátaszék";7140;NA;"08864";"város";"Tolna";"173 0";"Szekszárdi";"Szekszárd";"2";"Helyben – Locally";6357;6072;2522;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Baté";7258;NA;"32337";"község";"Somogy";"143 0";"Kaposvári";"Kaposvár";"2";"Helyben – Locally";1028;792;298;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Bátmonostor";6528;NA;"03656";"község";"Bács-Kiskun";"035 0";"Bajai";"Baja";"5";"Vaskút";3795;1475;698;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Bátonyterenye";3070;" ";"33534";"város";"Nógrád";"117 1";"Bátonyterenyei";"Bátonyterenye";"1";"–";7892;11616;5707;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Bátonyterenye";3078;"Kisterenye";"33534";"város";"Nógrád";"117 1";"Bátonyterenyei";"Bátonyterenye";"1";"–";7892;11616;5707;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Bátonyterenye";3071;"Nagybátony";"33534";"város";"Nógrád";"117 1";"Bátonyterenyei";"Bátonyterenye";"1";"–";7892;11616;5707;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Bátonyterenye";3070;NA;"33534";"város";"Nógrád";"117 1";"Bátonyterenyei";"Bátonyterenye";"1";"–";7892;11616;5707;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Bátor";3336;NA;"24022";"község";"Heves";"104 0";"Egri";"Eger";"5";"Egerbakta";2732;342;195;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Bátorliget";4343;NA;"02990";"község";"Szabolcs-Szatmár-Bereg";"156 0";"Nyírbátori";"Nyírbátor";"6";"Nyírcsászári";3330;698;334;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Battonya";5830;NA;"18102";"város";"Békés";"049 0";"Mezõkovácsházai";"Mezõkovácsháza";"1";"–";14571;5516;3011;NA;NA;NA;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA
@@ -312,7 +311,7 @@
 "Bezi";9162;NA;"10560";"község";"Gyõr-Moson-Sopron";"087 0";"Gyõri";"Gyõr";"5";"Enese";1121;501;202;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Biatorbágy";2051;NA;"08891";"város";"Pest";"123 0";"Budakeszi";"Budakeszi";"1";"–";4412;13889;5117;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Bicsérd";7671;NA;"13310";"község";"Baranya";"032 0";"Szentlõrinci";"Szentlõrinc";"2";"Helyben – Locally";1975;1000;369;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Bicske";2060;" ";"10481";"város";"Fejér";"077 1";"Bicskei";"Bicske";"1";"–";7708;11497;4144;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Bicske";2060;NA;"10481";"város";"Fejér";"077 1";"Bicskei";"Bicske";"1";"–";7708;11497;4144;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Bihardancsháza";4175;NA;"25256";"község";"Hajdú-Bihar";"102 0";"Püspökladányi";"Püspökladány";"6";"Nagyrábé";831;175;101;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Biharkeresztes";4110;NA;"19956";"város";"Hajdú-Bihar";"094 0";"Berettyóújfalui";"Berettyóújfalu";"2";"Helyben – Locally";4926;4050;1640;NA;NA;NA;NA;NA;NA;NA;"1";"1";NA;NA;NA;NA;NA
 "Biharnagybajom";4172;NA;"24828";"község";"Hajdú-Bihar";"102 0";"Püspökladányi";"Püspökladány";"1";"–";6135;2647;1107;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
@@ -409,78 +408,78 @@
 "Budajenõ";2093;NA;"03407";"község";"Pest";"123 0";"Budakeszi";"Budakeszi";"2";"Helyben – Locally";1242;2001;655;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Budakalász";2011;NA;"23463";"város";"Pest";"135 0";"Szentendrei";"Szentendre";"1";"–";1517;11160;4137;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;"1";NA;NA;NA
 "Budakeszi";2092;NA;"12052";"város";"Pest";"123 1";"Budakeszi";"Budakeszi";"1";"–";3710;14624;5668;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
-"Budaörs";2040;" ";"23278";"város";"Pest";"123 0";"Budakeszi";"Budakeszi";"1";"–";2359;28899;11160;NA;NA;"1";NA;NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
+"Budaörs";2040;NA;"23278";"város";"Pest";"123 0";"Budakeszi";"Budakeszi";"1";"–";2359;28899;11160;NA;NA;"1";NA;NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 01. ker.";1011;"";"09566";"fõvárosi kerület";"fõváros";"001 1";"Budapest 01. ker.";"Budapest 01. ker.";"1";"–";341;25172;17026;NA;"1";"1";NA;NA;"1";"1";"1";NA;NA;"1";NA;NA;NA
 "Budapest 01. ker.";1012;"";"09566";"fõvárosi kerület";"fõváros";"001 1";"Budapest 01. ker.";"Budapest 01. ker.";"1";"–";341;25172;17026;NA;"1";"1";NA;NA;"1";"1";"1";NA;NA;"1";NA;NA;NA
 "Budapest 01. ker.";1014;"";"09566";"fõvárosi kerület";"fõváros";"001 1";"Budapest 01. ker.";"Budapest 01. ker.";"1";"–";341;25172;17026;NA;"1";"1";NA;NA;"1";"1";"1";NA;NA;"1";NA;NA;NA
 "Budapest 01. ker.";1015;"";"09566";"fõvárosi kerület";"fõváros";"001 1";"Budapest 01. ker.";"Budapest 01. ker.";"1";"–";341;25172;17026;NA;"1";"1";NA;NA;"1";"1";"1";NA;NA;"1";NA;NA;NA
 "Budapest 01. ker.";1013;"";"09566";"fõvárosi kerület";"fõváros";"001 1";"Budapest 01. ker.";"Budapest 01. ker.";"1";"–";341;25172;17026;NA;"1";"1";NA;NA;"1";"1";"1";NA;NA;"1";NA;NA;NA
 "Budapest 01. ker.";1016;"";"09566";"fõvárosi kerület";"fõváros";"001 1";"Budapest 01. ker.";"Budapest 01. ker.";"1";"–";341;25172;17026;NA;"1";"1";NA;NA;"1";"1";"1";NA;NA;"1";NA;NA;NA
+"Budapest 02. ker.";1022;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
 "Budapest 02. ker.";1029;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
 "Budapest 02. ker.";1027;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
-"Budapest 02. ker.";1022;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
-"Budapest 02. ker.";1021;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
-"Budapest 02. ker.";1025;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
 "Budapest 02. ker.";1026;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
-"Budapest 02. ker.";1024;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
+"Budapest 02. ker.";1021;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
 "Budapest 02. ker.";1023;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
+"Budapest 02. ker.";1024;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
+"Budapest 02. ker.";1025;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
 "Budapest 02. ker.";1028;"";"03179";"fõvárosi kerület";"fõváros";"002 1";"Budapest 02. ker.";"Budapest 02. ker.";"1";"–";3634;89452;49093;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";"1";NA;"1"
 "Budapest 03. ker.";1039;"";"18069";"fõvárosi kerület";"fõváros";"003 1";"Budapest 03. ker.";"Budapest 03. ker.";"1";"–";3970;130560;63410;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
+"Budapest 03. ker.";1031;"";"18069";"fõvárosi kerület";"fõváros";"003 1";"Budapest 03. ker.";"Budapest 03. ker.";"1";"–";3970;130560;63410;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 03. ker.";1032;"";"18069";"fõvárosi kerület";"fõváros";"003 1";"Budapest 03. ker.";"Budapest 03. ker.";"1";"–";3970;130560;63410;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 03. ker.";1033;"";"18069";"fõvárosi kerület";"fõváros";"003 1";"Budapest 03. ker.";"Budapest 03. ker.";"1";"–";3970;130560;63410;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 03. ker.";1034;"";"18069";"fõvárosi kerület";"fõváros";"003 1";"Budapest 03. ker.";"Budapest 03. ker.";"1";"–";3970;130560;63410;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 03. ker.";1037;"";"18069";"fõvárosi kerület";"fõváros";"003 1";"Budapest 03. ker.";"Budapest 03. ker.";"1";"–";3970;130560;63410;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 03. ker.";1035;"";"18069";"fõvárosi kerület";"fõváros";"003 1";"Budapest 03. ker.";"Budapest 03. ker.";"1";"–";3970;130560;63410;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 03. ker.";1038;"";"18069";"fõvárosi kerület";"fõváros";"003 1";"Budapest 03. ker.";"Budapest 03. ker.";"1";"–";3970;130560;63410;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
-"Budapest 03. ker.";1031;"";"18069";"fõvárosi kerület";"fõváros";"003 1";"Budapest 03. ker.";"Budapest 03. ker.";"1";"–";3970;130560;63410;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 03. ker.";1036;"";"18069";"fõvárosi kerület";"fõváros";"003 1";"Budapest 03. ker.";"Budapest 03. ker.";"1";"–";3970;130560;63410;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 04. ker.";1047;"";"05467";"fõvárosi kerület";"fõváros";"004 1";"Budapest 04. ker.";"Budapest 04. ker.";"1";"–";1882;100071;47406;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 04. ker.";1045;"";"05467";"fõvárosi kerület";"fõváros";"004 1";"Budapest 04. ker.";"Budapest 04. ker.";"1";"–";1882;100071;47406;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 04. ker.";1041;"";"05467";"fõvárosi kerület";"fõváros";"004 1";"Budapest 04. ker.";"Budapest 04. ker.";"1";"–";1882;100071;47406;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 04. ker.";1043;"";"05467";"fõvárosi kerület";"fõváros";"004 1";"Budapest 04. ker.";"Budapest 04. ker.";"1";"–";1882;100071;47406;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
+"Budapest 04. ker.";1048;"";"05467";"fõvárosi kerület";"fõváros";"004 1";"Budapest 04. ker.";"Budapest 04. ker.";"1";"–";1882;100071;47406;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 04. ker.";1046;"";"05467";"fõvárosi kerület";"fõváros";"004 1";"Budapest 04. ker.";"Budapest 04. ker.";"1";"–";1882;100071;47406;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 04. ker.";1044;"";"05467";"fõvárosi kerület";"fõváros";"004 1";"Budapest 04. ker.";"Budapest 04. ker.";"1";"–";1882;100071;47406;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
-"Budapest 04. ker.";1048;"";"05467";"fõvárosi kerület";"fõváros";"004 1";"Budapest 04. ker.";"Budapest 04. ker.";"1";"–";1882;100071;47406;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 04. ker.";1042;"";"05467";"fõvárosi kerület";"fõváros";"004 1";"Budapest 04. ker.";"Budapest 04. ker.";"1";"–";1882;100071;47406;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
-"Budapest 05. ker.";1051;"";"13392";"fõvárosi kerület";"fõváros";"005 1";"Budapest 05. ker.";"Budapest 05. ker.";"1";"–";259;26013;19794;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA
 "Budapest 05. ker.";1055;"";"13392";"fõvárosi kerület";"fõváros";"005 1";"Budapest 05. ker.";"Budapest 05. ker.";"1";"–";259;26013;19794;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA
+"Budapest 05. ker.";1051;"";"13392";"fõvárosi kerület";"fõváros";"005 1";"Budapest 05. ker.";"Budapest 05. ker.";"1";"–";259;26013;19794;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA
+"Budapest 05. ker.";1054;"";"13392";"fõvárosi kerület";"fõváros";"005 1";"Budapest 05. ker.";"Budapest 05. ker.";"1";"–";259;26013;19794;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA
 "Budapest 05. ker.";1052;"";"13392";"fõvárosi kerület";"fõváros";"005 1";"Budapest 05. ker.";"Budapest 05. ker.";"1";"–";259;26013;19794;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA
 "Budapest 05. ker.";1056;"";"13392";"fõvárosi kerület";"fõváros";"005 1";"Budapest 05. ker.";"Budapest 05. ker.";"1";"–";259;26013;19794;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA
 "Budapest 05. ker.";1053;"";"13392";"fõvárosi kerület";"fõváros";"005 1";"Budapest 05. ker.";"Budapest 05. ker.";"1";"–";259;26013;19794;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA
-"Budapest 05. ker.";1054;"";"13392";"fõvárosi kerület";"fõváros";"005 1";"Budapest 05. ker.";"Budapest 05. ker.";"1";"–";259;26013;19794;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA
 "Budapest 06. ker.";1065;"";"16586";"fõvárosi kerület";"fõváros";"006 1";"Budapest 06. ker.";"Budapest 06. ker.";"1";"–";238;38541;28135;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
+"Budapest 06. ker.";1067;"";"16586";"fõvárosi kerület";"fõváros";"006 1";"Budapest 06. ker.";"Budapest 06. ker.";"1";"–";238;38541;28135;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 06. ker.";1063;"";"16586";"fõvárosi kerület";"fõváros";"006 1";"Budapest 06. ker.";"Budapest 06. ker.";"1";"–";238;38541;28135;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 06. ker.";1066;"";"16586";"fõvárosi kerület";"fõváros";"006 1";"Budapest 06. ker.";"Budapest 06. ker.";"1";"–";238;38541;28135;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
-"Budapest 06. ker.";1067;"";"16586";"fõvárosi kerület";"fõváros";"006 1";"Budapest 06. ker.";"Budapest 06. ker.";"1";"–";238;38541;28135;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
+"Budapest 06. ker.";1068;"";"16586";"fõvárosi kerület";"fõváros";"006 1";"Budapest 06. ker.";"Budapest 06. ker.";"1";"–";238;38541;28135;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 06. ker.";1064;"";"16586";"fõvárosi kerület";"fõváros";"006 1";"Budapest 06. ker.";"Budapest 06. ker.";"1";"–";238;38541;28135;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 06. ker.";1061;"";"16586";"fõvárosi kerület";"fõváros";"006 1";"Budapest 06. ker.";"Budapest 06. ker.";"1";"–";238;38541;28135;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 06. ker.";1062;"";"16586";"fõvárosi kerület";"fõváros";"006 1";"Budapest 06. ker.";"Budapest 06. ker.";"1";"–";238;38541;28135;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
-"Budapest 06. ker.";1068;"";"16586";"fõvárosi kerület";"fõváros";"006 1";"Budapest 06. ker.";"Budapest 06. ker.";"1";"–";238;38541;28135;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
-"Budapest 07. ker.";1072;"";"29744";"fõvárosi kerület";"fõváros";"007 1";"Budapest 07. ker.";"Budapest 07. ker.";"1";"–";209;52362;37023;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
 "Budapest 07. ker.";1074;"";"29744";"fõvárosi kerület";"fõváros";"007 1";"Budapest 07. ker.";"Budapest 07. ker.";"1";"–";209;52362;37023;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
-"Budapest 07. ker.";1076;"";"29744";"fõvárosi kerület";"fõváros";"007 1";"Budapest 07. ker.";"Budapest 07. ker.";"1";"–";209;52362;37023;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
+"Budapest 07. ker.";1072;"";"29744";"fõvárosi kerület";"fõváros";"007 1";"Budapest 07. ker.";"Budapest 07. ker.";"1";"–";209;52362;37023;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
 "Budapest 07. ker.";1071;"";"29744";"fõvárosi kerület";"fõváros";"007 1";"Budapest 07. ker.";"Budapest 07. ker.";"1";"–";209;52362;37023;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
+"Budapest 07. ker.";1076;"";"29744";"fõvárosi kerület";"fõváros";"007 1";"Budapest 07. ker.";"Budapest 07. ker.";"1";"–";209;52362;37023;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
 "Budapest 07. ker.";1075;"";"29744";"fõvárosi kerület";"fõváros";"007 1";"Budapest 07. ker.";"Budapest 07. ker.";"1";"–";209;52362;37023;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
 "Budapest 07. ker.";1078;"";"29744";"fõvárosi kerület";"fõváros";"007 1";"Budapest 07. ker.";"Budapest 07. ker.";"1";"–";209;52362;37023;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
 "Budapest 07. ker.";1073;"";"29744";"fõvárosi kerület";"fõváros";"007 1";"Budapest 07. ker.";"Budapest 07. ker.";"1";"–";209;52362;37023;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
 "Budapest 07. ker.";1077;"";"29744";"fõvárosi kerület";"fõváros";"007 1";"Budapest 07. ker.";"Budapest 07. ker.";"1";"–";209;52362;37023;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
 "Budapest 08. ker.";1086;"";"25405";"fõvárosi kerület";"fõváros";"008 1";"Budapest 08. ker.";"Budapest 08. ker.";"1";"–";685;76916;45569;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 08. ker.";1085;"";"25405";"fõvárosi kerület";"fõváros";"008 1";"Budapest 08. ker.";"Budapest 08. ker.";"1";"–";685;76916;45569;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
+"Budapest 08. ker.";1081;"";"25405";"fõvárosi kerület";"fõváros";"008 1";"Budapest 08. ker.";"Budapest 08. ker.";"1";"–";685;76916;45569;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 08. ker.";1088;"";"25405";"fõvárosi kerület";"fõváros";"008 1";"Budapest 08. ker.";"Budapest 08. ker.";"1";"–";685;76916;45569;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 08. ker.";1087;"";"25405";"fõvárosi kerület";"fõváros";"008 1";"Budapest 08. ker.";"Budapest 08. ker.";"1";"–";685;76916;45569;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 08. ker.";1089;"";"25405";"fõvárosi kerület";"fõváros";"008 1";"Budapest 08. ker.";"Budapest 08. ker.";"1";"–";685;76916;45569;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
-"Budapest 08. ker.";1081;"";"25405";"fõvárosi kerület";"fõváros";"008 1";"Budapest 08. ker.";"Budapest 08. ker.";"1";"–";685;76916;45569;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
-"Budapest 08. ker.";1082;"";"25405";"fõvárosi kerület";"fõváros";"008 1";"Budapest 08. ker.";"Budapest 08. ker.";"1";"–";685;76916;45569;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 08. ker.";1084;"";"25405";"fõvárosi kerület";"fõváros";"008 1";"Budapest 08. ker.";"Budapest 08. ker.";"1";"–";685;76916;45569;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
+"Budapest 08. ker.";1082;"";"25405";"fõvárosi kerület";"fõváros";"008 1";"Budapest 08. ker.";"Budapest 08. ker.";"1";"–";685;76916;45569;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
 "Budapest 08. ker.";1083;"";"25405";"fõvárosi kerület";"fõváros";"008 1";"Budapest 08. ker.";"Budapest 08. ker.";"1";"–";685;76916;45569;NA;"1";"1";NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1"
+"Budapest 09. ker.";1095;"";"29586";"fõvárosi kerület";"fõváros";"009 1";"Budapest 09. ker.";"Budapest 09. ker.";"1";"–";1253;59720;41096;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";"1";NA;"1"
 "Budapest 09. ker.";1098;"";"29586";"fõvárosi kerület";"fõváros";"009 1";"Budapest 09. ker.";"Budapest 09. ker.";"1";"–";1253;59720;41096;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";"1";NA;"1"
 "Budapest 09. ker.";1093;"";"29586";"fõvárosi kerület";"fõváros";"009 1";"Budapest 09. ker.";"Budapest 09. ker.";"1";"–";1253;59720;41096;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";"1";NA;"1"
-"Budapest 09. ker.";1095;"";"29586";"fõvárosi kerület";"fõváros";"009 1";"Budapest 09. ker.";"Budapest 09. ker.";"1";"–";1253;59720;41096;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";"1";NA;"1"
+"Budapest 09. ker.";1097;"";"29586";"fõvárosi kerület";"fõváros";"009 1";"Budapest 09. ker.";"Budapest 09. ker.";"1";"–";1253;59720;41096;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";"1";NA;"1"
 "Budapest 09. ker.";1091;"";"29586";"fõvárosi kerület";"fõváros";"009 1";"Budapest 09. ker.";"Budapest 09. ker.";"1";"–";1253;59720;41096;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";"1";NA;"1"
 "Budapest 09. ker.";1092;"";"29586";"fõvárosi kerület";"fõváros";"009 1";"Budapest 09. ker.";"Budapest 09. ker.";"1";"–";1253;59720;41096;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";"1";NA;"1"
-"Budapest 09. ker.";1097;"";"29586";"fõvárosi kerület";"fõváros";"009 1";"Budapest 09. ker.";"Budapest 09. ker.";"1";"–";1253;59720;41096;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";"1";NA;"1"
-"Budapest 09. ker.";1094;"";"29586";"fõvárosi kerület";"fõváros";"009 1";"Budapest 09. ker.";"Budapest 09. ker.";"1";"–";1253;59720;41096;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";"1";NA;"1"
 "Budapest 09. ker.";1096;"";"29586";"fõvárosi kerület";"fõváros";"009 1";"Budapest 09. ker.";"Budapest 09. ker.";"1";"–";1253;59720;41096;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";"1";NA;"1"
+"Budapest 09. ker.";1094;"";"29586";"fõvárosi kerület";"fõváros";"009 1";"Budapest 09. ker.";"Budapest 09. ker.";"1";"–";1253;59720;41096;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";"1";NA;"1"
 "Budapest 10. ker.";1106;"";"10700";"fõvárosi kerület";"fõváros";"010 1";"Budapest 10. ker.";"Budapest 10. ker.";"1";"–";3249;78030;38867;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
 "Budapest 10. ker.";1108;"";"10700";"fõvárosi kerület";"fõváros";"010 1";"Budapest 10. ker.";"Budapest 10. ker.";"1";"–";3249;78030;38867;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
 "Budapest 10. ker.";1103;"";"10700";"fõvárosi kerület";"fõváros";"010 1";"Budapest 10. ker.";"Budapest 10. ker.";"1";"–";3249;78030;38867;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
@@ -491,28 +490,28 @@
 "Budapest 10. ker.";1102;"";"10700";"fõvárosi kerület";"fõváros";"010 1";"Budapest 10. ker.";"Budapest 10. ker.";"1";"–";3249;78030;38867;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;"1"
 "Budapest 11. ker.";1115;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
 "Budapest 11. ker.";1111;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
-"Budapest 11. ker.";1112;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
 "Budapest 11. ker.";1146;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
+"Budapest 11. ker.";1112;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
+"Budapest 11. ker.";1116;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
 "Budapest 11. ker.";1114;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
 "Budapest 11. ker.";1118;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
 "Budapest 11. ker.";1113;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
 "Budapest 11. ker.";1119;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
-"Budapest 11. ker.";1116;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
 "Budapest 11. ker.";1117;"";"14216";"fõvárosi kerület";"fõváros";"011 1";"Budapest 11. ker.";"Budapest 11. ker.";"1";"–";3349;148517;80215;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1"
-"Budapest 12. ker.";1125;"";"24697";"fõvárosi kerület";"fõváros";"012 1";"Budapest 12. ker.";"Budapest 12. ker.";"1";"–";2667;57566;33583;NA;NA;"1";"1";"1";"1";"1";NA;NA;NA;"1";"1";NA;NA
 "Budapest 12. ker.";1121;"";"24697";"fõvárosi kerület";"fõváros";"012 1";"Budapest 12. ker.";"Budapest 12. ker.";"1";"–";2667;57566;33583;NA;NA;"1";"1";"1";"1";"1";NA;NA;NA;"1";"1";NA;NA
+"Budapest 12. ker.";1125;"";"24697";"fõvárosi kerület";"fõváros";"012 1";"Budapest 12. ker.";"Budapest 12. ker.";"1";"–";2667;57566;33583;NA;NA;"1";"1";"1";"1";"1";NA;NA;NA;"1";"1";NA;NA
+"Budapest 12. ker.";1122;"";"24697";"fõvárosi kerület";"fõváros";"012 1";"Budapest 12. ker.";"Budapest 12. ker.";"1";"–";2667;57566;33583;NA;NA;"1";"1";"1";"1";"1";NA;NA;NA;"1";"1";NA;NA
 "Budapest 12. ker.";1126;"";"24697";"fõvárosi kerület";"fõváros";"012 1";"Budapest 12. ker.";"Budapest 12. ker.";"1";"–";2667;57566;33583;NA;NA;"1";"1";"1";"1";"1";NA;NA;NA;"1";"1";NA;NA
 "Budapest 12. ker.";1124;"";"24697";"fõvárosi kerület";"fõváros";"012 1";"Budapest 12. ker.";"Budapest 12. ker.";"1";"–";2667;57566;33583;NA;NA;"1";"1";"1";"1";"1";NA;NA;NA;"1";"1";NA;NA
-"Budapest 12. ker.";1122;"";"24697";"fõvárosi kerület";"fõváros";"012 1";"Budapest 12. ker.";"Budapest 12. ker.";"1";"–";2667;57566;33583;NA;NA;"1";"1";"1";"1";"1";NA;NA;NA;"1";"1";NA;NA
 "Budapest 12. ker.";1123;"";"24697";"fõvárosi kerület";"fõváros";"012 1";"Budapest 12. ker.";"Budapest 12. ker.";"1";"–";2667;57566;33583;NA;NA;"1";"1";"1";"1";"1";NA;NA;NA;"1";"1";NA;NA
 "Budapest 13. ker.";1134;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 13. ker.";1136;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
+"Budapest 13. ker.";1132;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 13. ker.";1007;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 13. ker.";1133;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
-"Budapest 13. ker.";1132;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
+"Budapest 13. ker.";1135;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 13. ker.";1138;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 13. ker.";1137;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
-"Budapest 13. ker.";1135;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 13. ker.";1139;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 13. ker.";1131;"";"24299";"fõvárosi kerület";"fõváros";"013 1";"Budapest 13. ker.";"Budapest 13. ker.";"1";"–";1344;121657;74364;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 14. ker.";1143;"";"16337";"fõvárosi kerület";"fõváros";"014 1";"Budapest 14. ker.";"Budapest 14. ker.";"1";"–";1813;124218;73280;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
@@ -524,20 +523,20 @@
 "Budapest 14. ker.";1142;"";"16337";"fõvárosi kerület";"fõváros";"014 1";"Budapest 14. ker.";"Budapest 14. ker.";"1";"–";1813;124218;73280;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 14. ker.";1144;"";"16337";"fõvárosi kerület";"fõváros";"014 1";"Budapest 14. ker.";"Budapest 14. ker.";"1";"–";1813;124218;73280;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 14. ker.";1145;"";"16337";"fõvárosi kerület";"fõváros";"014 1";"Budapest 14. ker.";"Budapest 14. ker.";"1";"–";1813;124218;73280;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA
-"Budapest 15. ker.";1156;"";"11314";"fõvárosi kerület";"fõváros";"015 1";"Budapest 15. ker.";"Budapest 15. ker.";"1";"–";2694;79675;37350;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 15. ker.";1158;"";"11314";"fõvárosi kerület";"fõváros";"015 1";"Budapest 15. ker.";"Budapest 15. ker.";"1";"–";2694;79675;37350;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
-"Budapest 15. ker.";1157;"";"11314";"fõvárosi kerület";"fõváros";"015 1";"Budapest 15. ker.";"Budapest 15. ker.";"1";"–";2694;79675;37350;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
+"Budapest 15. ker.";1156;"";"11314";"fõvárosi kerület";"fõváros";"015 1";"Budapest 15. ker.";"Budapest 15. ker.";"1";"–";2694;79675;37350;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 15. ker.";1155;"";"11314";"fõvárosi kerület";"fõváros";"015 1";"Budapest 15. ker.";"Budapest 15. ker.";"1";"–";2694;79675;37350;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
+"Budapest 15. ker.";1157;"";"11314";"fõvárosi kerület";"fõváros";"015 1";"Budapest 15. ker.";"Budapest 15. ker.";"1";"–";2694;79675;37350;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 15. ker.";1154;"";"11314";"fõvárosi kerület";"fõváros";"015 1";"Budapest 15. ker.";"Budapest 15. ker.";"1";"–";2694;79675;37350;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 15. ker.";1152;"";"11314";"fõvárosi kerület";"fõváros";"015 1";"Budapest 15. ker.";"Budapest 15. ker.";"1";"–";2694;79675;37350;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 15. ker.";1151;"";"11314";"fõvárosi kerület";"fõváros";"015 1";"Budapest 15. ker.";"Budapest 15. ker.";"1";"–";2694;79675;37350;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 15. ker.";1153;"";"11314";"fõvárosi kerület";"fõváros";"015 1";"Budapest 15. ker.";"Budapest 15. ker.";"1";"–";2694;79675;37350;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 15. ker.";1161;"";"11314";"fõvárosi kerület";"fõváros";"015 1";"Budapest 15. ker.";"Budapest 15. ker.";"1";"–";2694;79675;37350;NA;"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA;NA
+"Budapest 16. ker.";1165;"";"08208";"fõvárosi kerület";"fõváros";"016 1";"Budapest 16. ker.";"Budapest 16. ker.";"1";"–";3351;74499;31591;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 16. ker.";1163;"";"08208";"fõvárosi kerület";"fõváros";"016 1";"Budapest 16. ker.";"Budapest 16. ker.";"1";"–";3351;74499;31591;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 16. ker.";1162;"";"08208";"fõvárosi kerület";"fõváros";"016 1";"Budapest 16. ker.";"Budapest 16. ker.";"1";"–";3351;74499;31591;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
-"Budapest 16. ker.";1165;"";"08208";"fõvárosi kerület";"fõváros";"016 1";"Budapest 16. ker.";"Budapest 16. ker.";"1";"–";3351;74499;31591;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
-"Budapest 16. ker.";1161;"";"08208";"fõvárosi kerület";"fõváros";"016 1";"Budapest 16. ker.";"Budapest 16. ker.";"1";"–";3351;74499;31591;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 16. ker.";1164;"";"08208";"fõvárosi kerület";"fõváros";"016 1";"Budapest 16. ker.";"Budapest 16. ker.";"1";"–";3351;74499;31591;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
+"Budapest 16. ker.";1161;"";"08208";"fõvárosi kerület";"fõváros";"016 1";"Budapest 16. ker.";"Budapest 16. ker.";"1";"–";3351;74499;31591;NA;"1";"1";NA;NA;"1";"1";"1";"1";"1";"1";"1";NA;NA
 "Budapest 17. ker.";1173;"";"02112";"fõvárosi kerület";"fõváros";"017 1";"Budapest 17. ker.";"Budapest 17. ker.";"1";"–";5482;87673;33682;NA;"1";"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA
 "Budapest 17. ker.";1117;"";"02112";"fõvárosi kerület";"fõváros";"017 1";"Budapest 17. ker.";"Budapest 17. ker.";"1";"–";5482;87673;33682;NA;"1";"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA
 "Budapest 17. ker.";1172;"";"02112";"fõvárosi kerület";"fõváros";"017 1";"Budapest 17. ker.";"Budapest 17. ker.";"1";"–";5482;87673;33682;NA;"1";"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA
@@ -545,37 +544,36 @@
 "Budapest 17. ker.";1174;"";"02112";"fõvárosi kerület";"fõváros";"017 1";"Budapest 17. ker.";"Budapest 17. ker.";"1";"–";5482;87673;33682;NA;"1";"1";"1";"1";NA;"1";"1";"1";"1";NA;"1";NA;NA
 "Budapest 18. ker.";1182;"";"29285";"fõvárosi kerület";"fõváros";"018 1";"Budapest 18. ker.";"Budapest 18. ker.";"1";"–";3860;102216;44308;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;NA
 "Budapest 18. ker.";1188;"";"29285";"fõvárosi kerület";"fõváros";"018 1";"Budapest 18. ker.";"Budapest 18. ker.";"1";"–";3860;102216;44308;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;NA
+"Budapest 18. ker.";1184;"";"29285";"fõvárosi kerület";"fõváros";"018 1";"Budapest 18. ker.";"Budapest 18. ker.";"1";"–";3860;102216;44308;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;NA
 "Budapest 18. ker.";1181;"";"29285";"fõvárosi kerület";"fõváros";"018 1";"Budapest 18. ker.";"Budapest 18. ker.";"1";"–";3860;102216;44308;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;NA
 "Budapest 18. ker.";1185;"";"29285";"fõvárosi kerület";"fõváros";"018 1";"Budapest 18. ker.";"Budapest 18. ker.";"1";"–";3860;102216;44308;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;NA
-"Budapest 18. ker.";1184;"";"29285";"fõvárosi kerület";"fõváros";"018 1";"Budapest 18. ker.";"Budapest 18. ker.";"1";"–";3860;102216;44308;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;NA
 "Budapest 18. ker.";1238;"";"29285";"fõvárosi kerület";"fõváros";"018 1";"Budapest 18. ker.";"Budapest 18. ker.";"1";"–";3860;102216;44308;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;NA
-"Budapest 18. ker.";1183;"";"29285";"fõvárosi kerület";"fõváros";"018 1";"Budapest 18. ker.";"Budapest 18. ker.";"1";"–";3860;102216;44308;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;NA
 "Budapest 18. ker.";1186;"";"29285";"fõvárosi kerület";"fõváros";"018 1";"Budapest 18. ker.";"Budapest 18. ker.";"1";"–";3860;102216;44308;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;NA
+"Budapest 18. ker.";1183;"";"29285";"fõvárosi kerület";"fõváros";"018 1";"Budapest 18. ker.";"Budapest 18. ker.";"1";"–";3860;102216;44308;NA;"1";"1";"1";"1";"1";"1";"1";"1";"1";"1";NA;NA;NA
 "Budapest 19. ker.";1196;"";"04011";"fõvárosi kerület";"fõváros";"019 1";"Budapest 19. ker.";"Budapest 19. ker.";"1";"–";938;59648;27389;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";NA;NA;NA
+"Budapest 19. ker.";1192;"";"04011";"fõvárosi kerület";"fõváros";"019 1";"Budapest 19. ker.";"Budapest 19. ker.";"1";"–";938;59648;27389;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 19. ker.";1194;"";"04011";"fõvárosi kerület";"fõváros";"019 1";"Budapest 19. ker.";"Budapest 19. ker.";"1";"–";938;59648;27389;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 19. ker.";1193;"";"04011";"fõvárosi kerület";"fõváros";"019 1";"Budapest 19. ker.";"Budapest 19. ker.";"1";"–";938;59648;27389;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 19. ker.";1195;"";"04011";"fõvárosi kerület";"fõváros";"019 1";"Budapest 19. ker.";"Budapest 19. ker.";"1";"–";938;59648;27389;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";NA;NA;NA
-"Budapest 19. ker.";1192;"";"04011";"fõvárosi kerület";"fõváros";"019 1";"Budapest 19. ker.";"Budapest 19. ker.";"1";"–";938;59648;27389;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 19. ker.";1191;"";"04011";"fõvárosi kerület";"fõváros";"019 1";"Budapest 19. ker.";"Budapest 19. ker.";"1";"–";938;59648;27389;NA;"1";"1";"1";"1";"1";"1";"1";"1";NA;"1";NA;NA;NA
 "Budapest 20. ker.";1204;"";"06026";"fõvárosi kerület";"fõváros";"020 1";"Budapest 20. ker.";"Budapest 20. ker.";"1";"–";1219;65611;31137;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;"1";NA;"1"
 "Budapest 20. ker.";1201;"";"06026";"fõvárosi kerület";"fõváros";"020 1";"Budapest 20. ker.";"Budapest 20. ker.";"1";"–";1219;65611;31137;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;"1";NA;"1"
+"Budapest 20. ker.";1205;"";"06026";"fõvárosi kerület";"fõváros";"020 1";"Budapest 20. ker.";"Budapest 20. ker.";"1";"–";1219;65611;31137;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;"1";NA;"1"
 "Budapest 20. ker.";1202;"";"06026";"fõvárosi kerület";"fõváros";"020 1";"Budapest 20. ker.";"Budapest 20. ker.";"1";"–";1219;65611;31137;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;"1";NA;"1"
 "Budapest 20. ker.";1203;"";"06026";"fõvárosi kerület";"fõváros";"020 1";"Budapest 20. ker.";"Budapest 20. ker.";"1";"–";1219;65611;31137;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;"1";NA;"1"
-"Budapest 20. ker.";1205;"";"06026";"fõvárosi kerület";"fõváros";"020 1";"Budapest 20. ker.";"Budapest 20. ker.";"1";"–";1219;65611;31137;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;"1";NA;"1"
 "Budapest 21. ker.";1211;"";"13189";"fõvárosi kerület";"fõváros";"021 1";"Budapest 21. ker.";"Budapest 21. ker.";"1";"–";2575;76092;33383;NA;"1";"1";NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;"1"
 "Budapest 21. ker.";1212;"";"13189";"fõvárosi kerület";"fõváros";"021 1";"Budapest 21. ker.";"Budapest 21. ker.";"1";"–";2575;76092;33383;NA;"1";"1";NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;"1"
 "Budapest 21. ker.";1215;"";"13189";"fõvárosi kerület";"fõváros";"021 1";"Budapest 21. ker.";"Budapest 21. ker.";"1";"–";2575;76092;33383;NA;"1";"1";NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;"1"
-"Budapest 21. ker.";1121;"";"13189";"fõvárosi kerület";"fõváros";"021 1";"Budapest 21. ker.";"Budapest 21. ker.";"1";"–";2575;76092;33383;NA;"1";"1";NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;"1"
-"Budapest 21. ker.";1214;"";"13189";"fõvárosi kerület";"fõváros";"021 1";"Budapest 21. ker.";"Budapest 21. ker.";"1";"–";2575;76092;33383;NA;"1";"1";NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;"1"
 "Budapest 21. ker.";1213;"";"13189";"fõvárosi kerület";"fõváros";"021 1";"Budapest 21. ker.";"Budapest 21. ker.";"1";"–";2575;76092;33383;NA;"1";"1";NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;"1"
+"Budapest 21. ker.";1214;"";"13189";"fõvárosi kerület";"fõváros";"021 1";"Budapest 21. ker.";"Budapest 21. ker.";"1";"–";2575;76092;33383;NA;"1";"1";NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;"1"
+"Budapest 22. ker.";1222;"";"10214";"fõvárosi kerület";"fõváros";"022 1";"Budapest 22. ker.";"Budapest 22. ker.";"1";"–";3425;55112;22974;NA;"1";"1";"1";NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Budapest 22. ker.";1225;"";"10214";"fõvárosi kerület";"fõváros";"022 1";"Budapest 22. ker.";"Budapest 22. ker.";"1";"–";3425;55112;22974;NA;"1";"1";"1";NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Budapest 22. ker.";1221;"";"10214";"fõvárosi kerület";"fõváros";"022 1";"Budapest 22. ker.";"Budapest 22. ker.";"1";"–";3425;55112;22974;NA;"1";"1";"1";NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Budapest 22. ker.";1224;"";"10214";"fõvárosi kerület";"fõváros";"022 1";"Budapest 22. ker.";"Budapest 22. ker.";"1";"–";3425;55112;22974;NA;"1";"1";"1";NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
-"Budapest 22. ker.";1222;"";"10214";"fõvárosi kerület";"fõváros";"022 1";"Budapest 22. ker.";"Budapest 22. ker.";"1";"–";3425;55112;22974;NA;"1";"1";"1";NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Budapest 22. ker.";1223;"";"10214";"fõvárosi kerület";"fõváros";"022 1";"Budapest 22. ker.";"Budapest 22. ker.";"1";"–";3425;55112;22974;NA;"1";"1";"1";NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Budapest 23. ker.";1239;"";"34139";"fõvárosi kerület";"fõváros";"023 1";"Budapest 23. ker.";"Budapest 23. ker.";"1";"–";4077;22965;8750;NA;"1";NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
-"Budapest 23. ker.";1237;"";"34139";"fõvárosi kerület";"fõváros";"023 1";"Budapest 23. ker.";"Budapest 23. ker.";"1";"–";4077;22965;8750;NA;"1";NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Budapest 23. ker.";1238;"";"34139";"fõvárosi kerület";"fõváros";"023 1";"Budapest 23. ker.";"Budapest 23. ker.";"1";"–";4077;22965;8750;NA;"1";NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
+"Budapest 23. ker.";1237;"";"34139";"fõvárosi kerület";"fõváros";"023 1";"Budapest 23. ker.";"Budapest 23. ker.";"1";"–";4077;22965;8750;NA;"1";NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Bugac";6114;NA;"32823";"nagyközség";"Bács-Kiskun";"040 0";"Kiskunfélegyházi";"Kiskunfélegyháza";"2";"Helyben – Locally";13111;2565;1406;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Bugacpusztaháza";6114;NA;"33631";"község";"Bács-Kiskun";"040 0";"Kiskunfélegyházi";"Kiskunfélegyháza";"6";"Bugac";4300;250;141;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Bugyi";2347;NA;"32027";"nagyközség";"Pest";"125 0";"Dabasi";"Dabas";"1";"–";11555;5180;2078;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -724,7 +722,7 @@
 "Csõvár";2615;NA;"26985";"község";"Pest";"138 0";"Váci";"Vác";"6";"Acsa";1717;595;244;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA
 "Csurgó";8840;NA;"21315";"város";"Somogy";"141 1";"Csurgói";"Csurgó";"2";"Helyben – Locally";5942;4629;2089;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Csurgónagymarton";8840;NA;"10603";"község";"Somogy";"141 0";"Csurgói";"Csurgó";"6";"Csurgó";1482;162;82;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
-"Dabas";2370;" ";"09247";"város";"Pest";"125 1";"Dabasi";"Dabas";"1";"–";16599;17202;6770;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;"1";NA;NA
+"Dabas";2370;NA;"09247";"város";"Pest";"125 1";"Dabasi";"Dabas";"1";"–";16599;17202;6770;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;"1";NA;NA
 "Dabas";2371;"Sári";"09247";"város";"Pest";"125 1";"Dabasi";"Dabas";"1";"–";16599;17202;6770;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;"1";NA;NA
 "Dabas";2373;"Gyón";"09247";"város";"Pest";"125 1";"Dabasi";"Dabas";"1";"–";16599;17202;6770;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;"1";NA;NA
 "Dabronc";8345;NA;"17172";"község";"Veszprém";"188 0";"Sümegi";"Sümeg";"6";"Gógánfa";2028;348;197;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -772,7 +770,7 @@
 "Demjén";3395;NA;"08660";"község";"Heves";"104 0";"Egri";"Eger";"5";"Kerecsend";2508;641;335;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Dencsháza";7915;NA;"07773";"község";"Baranya";"033 0";"Szigetvári";"Szigetvár";"2";"Helyben – Locally";1398;553;211;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Dénesfa";9365;NA;"32595";"község";"Gyõr-Moson-Sopron";"088 0";"Kapuvári";"Kapuvár";"6";"Beled";1754;316;179;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
-"Derecske";4130;" ";"05573";"város";"Hajdú-Bihar";"096 1";"Derecskei";"Derecske";"1";"–";10359;8385;3407;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Derecske";4130;NA;"05573";"város";"Hajdú-Bihar";"096 1";"Derecskei";"Derecske";"1";"–";10359;8385;3407;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Derekegyház";6621;NA;"07834";"község";"Csongrád";"076 0";"Szentesi";"Szentes";"6";"Szegvár";5378;1527;674;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Deszk";6772;NA;"24077";"község";"Csongrád";"075 0";"Szegedi";"Szeged";"1";"–";5205;3668;1409;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA
 "Detek";3834;NA;"10524";"község";"Borsod-Abaúj-Zemplén";"056 0";"Encsi";"Encs";"6";"Szalaszend";968;238;126;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -799,7 +797,7 @@
 "Domony";2182;NA;"04808";"község";"Pest";"122 0";"Aszódi";"Aszód";"1";"–";2180;2131;745;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Domoszló";3263;NA;"07515";"község";"Heves";"106 0";"Gyöngyösi";"Gyöngyös";"2";"Helyben – Locally";4022;1902;957;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Dormánd";3374;NA;"30261";"község";"Heves";"105 0";"Füzesabonyi";"Füzesabony";"5";"Mezõtárkány";2006;1026;389;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Dorog";2510;" ";"10490";"város";"Komárom-Esztergom";"110 0";"Esztergomi";"Esztergom";"1";"–";1154;11530;5169;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;"1";NA;NA
+"Dorog";2510;NA;"10490";"város";"Komárom-Esztergom";"110 0";"Esztergomi";"Esztergom";"1";"–";1154;11530;5169;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;"1";NA;NA
 "Dorogháza";3153;NA;"24439";"község";"Nógrád";"117 0";"Bátonyterenyei";"Bátonyterenye";"5";"Mátramindszent";1768;1060;575;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Dozmat";9791;NA;"16151";"község";"Vas";"181 0";"Szombathelyi";"Szombathely";"6";"Torony";854;260;107;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Döbörhegy";9914;NA;"20695";"község";"Vas";"177 0";"Körmendi";"Körmend";"6";"Molnaszecsõd";1175;112;108;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -835,7 +833,7 @@
 "Dunabogdány";2023;NA;"25362";"község";"Pest";"135 0";"Szentendrei";"Szentendre";"1";"–";2550;3134;1243;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Dunaegyháza";6323;NA;"21069";"község";"Bács-Kiskun";"043 0";"Kunszentmiklósi";"Kunszentmiklós";"5";"Apostag";1012;1410;723;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;"1";NA;NA
 "Dunafalva";6513;NA;"12566";"község";"Bács-Kiskun";"035 0";"Bajai";"Baja";"6";"Szeremle";5790;903;569;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
-"Dunaföldvár";7020;" ";"31501";"város";"Tolna";"172 0";"Paksi";"Paks";"1";"–";11142;8443;4075;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Dunaföldvár";7020;NA;"31501";"város";"Tolna";"172 0";"Paksi";"Paks";"1";"–";11142;8443;4075;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Dunaharaszti";2330;NA;"09584";"város";"Pest";"136 0";"Szigetszentmiklósi";"Szigetszentmiklós";"1";"–";2917;22558;8427;NA;"1";NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Dunakeszi";2120;NA;"18616";"város";"Pest";"126 1";"Dunakeszi";"Dunakeszi";"1";"–";3106;43604;17579;NA;"1";NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Dunakiliti";9225;NA;"27739";"község";"Gyõr-Moson-Sopron";"089 0";"Mosonmagyaróvári";"Mosonmagyaróvár";"2";"Helyben – Locally";3363;1898;766;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -849,7 +847,7 @@
 "Dunaszentpál";9175;NA;"15875";"község";"Gyõr-Moson-Sopron";"087 0";"Gyõri";"Gyõr";"5";"Dunaszeg";981;729;268;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Dunasziget";9226;NA;"10454";"község";"Gyõr-Moson-Sopron";"089 0";"Mosonmagyaróvári";"Mosonmagyaróvár";"6";"Rajka";3589;1653;638;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Dunatetétlen";6325;NA;"14766";"község";"Bács-Kiskun";"037 0";"Kalocsai";"Kalocsa";"5";"Harta";4319;491;255;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
-"Dunaújváros";2400;" ";"03115";"megyei jogú város";"Fejér";"078 1";"Dunaújvárosi";"Dunaújváros";"1";"–";5267;44200;23042;NA;NA;NA;"1";"1";NA;NA;"1";NA;"1";"1";NA;NA;NA
+"Dunaújváros";2400;NA;"03115";"megyei jogú város";"Fejér";"078 1";"Dunaújvárosi";"Dunaújváros";"1";"–";5267;44200;23042;NA;NA;NA;"1";"1";NA;NA;"1";NA;"1";"1";NA;NA;NA
 "Dunaújváros";2407;"Pálhalma";"03115";"megyei jogú város";"Fejér";"078 1";"Dunaújvárosi";"Dunaújváros";"1";"–";5267;44200;23042;NA;NA;NA;"1";"1";NA;NA;"1";NA;"1";"1";NA;NA;NA
 "Dunavarsány";2336;NA;"20534";"város";"Pest";"136 0";"Szigetszentmiklósi";"Szigetszentmiklós";"2";"Helyben – Locally";2252;8341;3060;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Dunavecse";6087;NA;"07612";"város";"Bács-Kiskun";"043 0";"Kunszentmiklósi";"Kunszentmiklós";"1";"–";6677;3806;1676;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
@@ -930,7 +928,7 @@
 "Esztár";4124;NA;"25469";"község";"Hajdú-Bihar";"096 0";"Derecskei";"Derecske";"2";"Helyben – Locally";3171;1287;517;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Eszteregnye";8882;NA;"06178";"község";"Zala";"196 0";"Nagykanizsai";"Nagykanizsa";"5";"Szepetnek";2009;637;285;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Esztergályhorváti";8742;NA;"15769";"község";"Zala";"193 0";"Keszthelyi";"Keszthely";"6";"Zalaapáti";1669;391;208;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Esztergom";2500;" ";"25131";"város";"Komárom-Esztergom";"110 1";"Esztergomi";"Esztergom";"2";"Helyben – Locally";10011;28144;12472;NA;NA;NA;NA;"1";"1";NA;"1";NA;NA;NA;NA;NA;NA
+"Esztergom";2500;NA;"25131";"város";"Komárom-Esztergom";"110 1";"Esztergomi";"Esztergom";"2";"Helyben – Locally";10011;28144;12472;NA;NA;NA;NA;"1";"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Esztergom";2508;"Pilisszentlélek";"25131";"város";"Komárom-Esztergom";"110 1";"Esztergomi";"Esztergom";"2";"Helyben – Locally";10011;28144;12472;NA;NA;NA;NA;"1";"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Esztergom";2509;"Kertváros";"25131";"város";"Komárom-Esztergom";"110 1";"Esztergomi";"Esztergom";"2";"Helyben – Locally";10011;28144;12472;NA;NA;NA;NA;"1";"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Ete";2947;NA;"06664";"község";"Komárom-Esztergom";"111 0";"Kisbéri";"Kisbér";"6";"Tárkány";2062;600;247;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -1100,8 +1098,8 @@
 "Gosztola";8960;NA;"13569";"község";"Zala";"194 0";"Lenti";"Lenti";"6";"Rédics";698;49;43;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Göd";2131;"Alsógöd";"23649";"város";"Pest";"126 0";"Dunakeszi";"Dunakeszi";"1";"–";2444;19871;7434;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;"1";NA;NA;NA
 "Göd";2132;"Felsõgöd";"23649";"város";"Pest";"126 0";"Dunakeszi";"Dunakeszi";"1";"–";2444;19871;7434;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;"1";NA;NA;NA
-"Gödöllõ";2100;" ";"32559";"város";"Pest";"128 1";"Gödöllõi";"Gödöllõ";"1";"–";6193;32099;12840;NA;NA;NA;NA;"1";"1";NA;"1";NA;NA;NA;NA;NA;NA
-"Gödre";7385;"Gödreszentmárton  ";"33233";"község";"Baranya";"025 0";"Hegyháti";"Sásd";"5";"Sásd";3993;781;396;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
+"Gödöllõ";2100;NA;"32559";"város";"Pest";"128 1";"Gödöllõi";"Gödöllõ";"1";"–";6193;32099;12840;NA;NA;NA;NA;"1";"1";NA;"1";NA;NA;NA;NA;NA;NA
+"Gödre";7385;"Gödreszentmárton";"33233";"község";"Baranya";"025 0";"Hegyháti";"Sásd";"5";"Sásd";3993;781;396;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Gödre";7386;"Gödrekeresztúr";"33233";"község";"Baranya";"025 0";"Hegyháti";"Sásd";"5";"Sásd";3993;781;396;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Gölle";7272;NA;"30571";"község";"Somogy";"143 0";"Kaposvári";"Kaposvár";"2";"Helyben – Locally";4469;804;431;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Gömörszõlõs";3728;NA;"09706";"község";"Borsod-Abaúj-Zemplén";"063 0";"Putnoki";"Putnok";"6";"Aggtelek";877;82;46;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -1148,13 +1146,13 @@
 "Gyõr";9026;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
 "Gyõr";9011;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
 "Gyõr";9024;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
+"Gyõr";9027;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
 "Gyõr";9023;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
 "Gyõr";9022;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
 "Gyõr";9028;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
 "Gyõr";9021;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
 "Gyõr";9030;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
 "Gyõr";9029;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
-"Gyõr";9027;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
 "Gyõr";9019;"";"25584";"megyeszékhely, megyei jogú város";"Gyõr-Moson-Sopron";"087 1";"Gyõri";"Gyõr";"1";"–";17462;132038;61079;NA;NA;NA;NA;"1";"1";"1";"1";NA;NA;NA;NA;NA;NA
 "Gyõrasszonyfa";9093;NA;"08721";"község";"Gyõr-Moson-Sopron";"090 0";"Pannonhalmi";"Pannonhalma";"6";"Tápszentmiklós";648;485;201;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Györe";7352;NA;"25539";"község";"Tolna";"170 0";"Bonyhádi";"Bonyhád";"6";"Kakasd";1132;657;251;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -1185,13 +1183,13 @@
 "Hahót";8771;NA;"10269";"község";"Zala";"196 0";"Nagykanizsai";"Nagykanizsa";"2";"Helyben – Locally";3901;973;491;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Hajdúbagos";4273;NA;"26170";"község";"Hajdú-Bihar";"096 0";"Derecskei";"Derecske";"1";"–";3744;1964;857;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Hajdúböszörmény";4074;"Nagypród";"03045";"város";"Hajdú-Bihar";"097 1";"Hajdúböszörményi";"Hajdúböszörmény";"1";"–";37074;30267;12467;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Hajdúböszörmény";4220;" ";"03045";"város";"Hajdú-Bihar";"097 1";"Hajdúböszörményi";"Hajdúböszörmény";"1";"–";37074;30267;12467;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Hajdúböszörmény";4220;NA;"03045";"város";"Hajdú-Bihar";"097 1";"Hajdúböszörményi";"Hajdúböszörmény";"1";"–";37074;30267;12467;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Hajdúböszörmény";4224;"Bodaszõlõ";"03045";"város";"Hajdú-Bihar";"097 1";"Hajdúböszörményi";"Hajdúböszörmény";"1";"–";37074;30267;12467;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Hajdúböszörmény";4086;"Hajdúvid";"03045";"város";"Hajdú-Bihar";"097 1";"Hajdúböszörményi";"Hajdúböszörmény";"1";"–";37074;30267;12467;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Hajdúdorog";4087;NA;"12803";"város";"Hajdú-Bihar";"097 0";"Hajdúböszörményi";"Hajdúböszörmény";"1";"–";10064;8441;3595;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Hajdúhadház";4242;NA;"10393";"város";"Hajdú-Bihar";"098 1";"Hajdúhadházi";"Hajdúhadház";"1";"–";8782;12681;4224;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Hajdúnánás";4085;"Tedej";"22406";"város";"Hajdú-Bihar";"099 1";"Hajdúnánási";"Hajdúnánás";"2";"Helyben – Locally";25964;16644;6953;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Hajdúnánás";4080;" ";"22406";"város";"Hajdú-Bihar";"099 1";"Hajdúnánási";"Hajdúnánás";"2";"Helyben – Locally";25964;16644;6953;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Hajdúnánás";4080;NA;"22406";"város";"Hajdú-Bihar";"099 1";"Hajdúnánási";"Hajdúnánás";"2";"Helyben – Locally";25964;16644;6953;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Hajdúsámson";4251;NA;"31097";"város";"Hajdú-Bihar";"095 0";"Debreceni";"Debrecen";"1";"–";6947;13269;4795;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Hajdúszoboszló";4200;NA;"05175";"város";"Hajdú-Bihar";"100 1";"Hajdúszoboszlói";"Hajdúszoboszló";"1";"–";23862;24009;11497;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Hajdúszovát";4212;NA;"17473";"község";"Hajdú-Bihar";"100 0";"Hajdúszoboszlói";"Hajdúszoboszló";"1";"–";5800;3044;1109;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
@@ -1220,7 +1218,7 @@
 "Harta";6326;NA;"18458";"nagyközség";"Bács-Kiskun";"037 0";"Kalocsai";"Kalocsa";"2";"Helyben – Locally";12968;3233;1596;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Harta";6327;"Állampuszta";"18458";"nagyközség";"Bács-Kiskun";"037 0";"Kalocsai";"Kalocsa";"2";"Helyben – Locally";12968;3233;1596;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Hásságy";7745;NA;"27881";"község";"Baranya";"024 0";"Bólyi";"Bóly";"6";"Szederkény";800;256;141;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
-"Hatvan";3000;" ";"22309";"város";"Heves";"107 1";"Hatvani";"Hatvan";"2";"Helyben – Locally";6631;20228;8978;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Hatvan";3000;NA;"22309";"város";"Heves";"107 1";"Hatvani";"Hatvan";"2";"Helyben – Locally";6631;20228;8978;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Hédervár";9178;NA;"12308";"község";"Gyõr-Moson-Sopron";"089 0";"Mosonmagyaróvári";"Mosonmagyaróvár";"6";"Darnózseli";1428;1219;469;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Hedrehely";7533;NA;"16726";"község";"Somogy";"143 0";"Kaposvári";"Kaposvár";"6";"Mike";2551;333;178;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Hegyesd";8296;NA;"02422";"község";"Veszprém";"189 0";"Tapolcai";"Tapolca";"6";"Monostorapáti";1105;150;92;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -1278,7 +1276,7 @@
 "Hévíz";8380;NA;"03814";"város";"Zala";"193 0";"Keszthelyi";"Keszthely";"1";"–";830;4523;3846;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Hévízgyörk";2192;NA;"13949";"község";"Pest";"122 0";"Aszódi";"Aszód";"1";"–";2285;3082;1151;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Hidas";7696;NA;"06798";"község";"Baranya";"029 0";"Pécsváradi";"Pécsvárad";"1";"–";1906;2035;809;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
-"Hidasnémeti";3876;NA;"11697";"község";"Borsod-Abaúj-Zemplén";"057 0";"Gönci";"Gönc";"2";"Helyben – Locally";1607;1066;450;NA;"  ";NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Hidasnémeti";3876;NA;"11697";"község";"Borsod-Abaúj-Zemplén";"057 0";"Gönci";"Gönc";"2";"Helyben – Locally";1607;1066;450;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Hidegkút";8247;NA;"20756";"község";"Veszprém";"191 0";"Veszprémi";"Veszprém";"6";"Tótvázsony";1358;429;189;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Hidegség";9491;NA;"23375";"község";"Gyõr-Moson-Sopron";"091 0";"Soproni";"Sopron";"5";"Hegykõ";1682;449;170;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Hidvégardó";3768;NA;"25672";"község";"Borsod-Abaúj-Zemplén";"055 0";"Edelényi";"Edelény";"6";"Perkupa";1699;532;281;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
@@ -1466,7 +1464,7 @@
 "Karancslapujtõ";3182;NA;"21041";"község";"Nógrád";"120 0";"Salgótarjáni";"Salgótarján";"2";"Helyben – Locally";1935;2423;1044;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Karancsság";3163;NA;"26897";"község";"Nógrád";"120 0";"Salgótarjáni";"Salgótarján";"6";"Ságújfalu";2139;1247;420;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Kárász";7333;NA;"05999";"község";"Baranya";"026 0";"Komlói";"Komló";"6";"Egyházaskozár";802;323;151;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Karcag";5300;" ";"04923";"város";"Jász-Nagykun-Szolnok";"163 1";"Karcagi";"Karcag";"1";"–";36863;19481;8197;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Karcag";5300;NA;"04923";"város";"Jász-Nagykun-Szolnok";"163 1";"Karcagi";"Karcag";"1";"–";36863;19481;8197;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Karcsa";3963;NA;"21218";"község";"Borsod-Abaúj-Zemplén";"054 0";"Cigándi";"Cigánd";"2";"Helyben – Locally";4369;1795;659;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Kardos";5552;NA;"24794";"község";"Békés";"052 0";"Szarvasi";"Szarvas";"5";"Kondoros";4279;562;365;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA
 "Kardoskút";5945;NA;"12177";"község";"Békés";"050 0";"Orosházi";"Orosháza";"6";"Csanádapáca";7658;781;413;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -1487,7 +1485,7 @@
 "Kávás";8994;NA;"32063";"község";"Zala";"197 0";"Zalaegerszegi";"Zalaegerszeg";"6";"Zalaszentgyörgy";664;237;99;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Kazár";3147;"Mizserfa";"28389";"község";"Nógrád";"120 0";"Salgótarjáni";"Salgótarján";"2";"Helyben – Locally";3039;1732;775;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Kazár";3127;NA;"28389";"község";"Nógrád";"120 0";"Salgótarjáni";"Salgótarján";"2";"Helyben – Locally";3039;1732;775;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Kazincbarcika";3700;" ";"06691";"város";"Borsod-Abaúj-Zemplén";"058 1";"Kazincbarcikai";"Kazincbarcika";"1";"–";3664;25981;12825;NA;NA;NA;NA;"1";"1";NA;"1";NA;NA;NA;NA;NA;NA
+"Kazincbarcika";3700;NA;"06691";"város";"Borsod-Abaúj-Zemplén";"058 1";"Kazincbarcikai";"Kazincbarcika";"1";"–";3664;25981;12825;NA;NA;NA;NA;"1";"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Kázsmárk";3831;NA;"13374";"község";"Borsod-Abaúj-Zemplén";"067 0";"Szikszói";"Szikszó";"2";"Helyben – Locally";1248;956;280;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Kazsok";7274;NA;"26888";"község";"Somogy";"143 0";"Kaposvári";"Kaposvár";"6";"Igal";1071;322;125;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Kecel";6237;NA;"19789";"város";"Bács-Kiskun";"039 0";"Kiskõrösi";"Kiskõrös";"2";"Helyben – Locally";11448;8376;3823;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
@@ -1615,8 +1613,8 @@
 "Kisköre";3384;NA;"18281";"város";"Heves";"108 0";"Hevesi";"Heves";"1";"–";6842;2810;1274;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Kiskõrös";6200;NA;"09344";"város";"Bács-Kiskun";"039 1";"Kiskõrösi";"Kiskõrös";"1";"–";10223;13746;6764;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;"1";NA;NA
 "Kiskunfélegyháza";6100;NA;"20297";"város";"Bács-Kiskun";"040 1";"Kiskunfélegyházi";"Kiskunfélegyháza";"1";"–";25630;29306;14609;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Kiskunhalas";6400;" ";"32434";"város";"Bács-Kiskun";"041 1";"Kiskunhalasi";"Kiskunhalas";"2";"Helyben – Locally";22758;27017;12711;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Kiskunlacháza";2340;NA;"10816";"nagyközség";"Pest";"134 0";"Ráckevei";"Ráckeve";"1";"–";9350;8958;3490;NA;" ";NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Kiskunhalas";6400;NA;"32434";"város";"Bács-Kiskun";"041 1";"Kiskunhalasi";"Kiskunhalas";"2";"Helyben – Locally";22758;27017;12711;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Kiskunlacháza";2340;NA;"10816";"nagyközség";"Pest";"134 0";"Ráckevei";"Ráckeve";"1";"–";9350;8958;3490;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Kiskunmajsa";6120;NA;"24396";"város";"Bács-Kiskun";"042 1";"Kiskunmajsai";"Kiskunmajsa";"1";"–";22227;10843;5355;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Kiskutas";8911;NA;"20312";"község";"Zala";"197 0";"Zalaegerszegi";"Zalaegerszeg";"6";"Zalaszentiván";469;172;85;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Kisláng";8156;NA;"28990";"község";"Fejér";"079 0";"Enyingi";"Enying";"2";"Helyben – Locally";5306;2474;1019;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
@@ -1671,7 +1669,7 @@
 "Kokad";4284;NA;"17455";"község";"Hajdú-Bihar";"096 0";"Derecskei";"Derecske";"5";"Létavértes";1610;642;281;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Kolontár";8468;NA;"30182";"község";"Veszprém";"186 0";"Devecseri";"Devecser";"5";"Tüskevár";2172;645;280;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Komádi";4138;NA;"02167";"város";"Hajdú-Bihar";"094 0";"Berettyóújfalui";"Berettyóújfalu";"2";"Helyben – Locally";14465;5078;2480;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Komárom";2900;" ";"05449";"város";"Komárom-Esztergom";"112 1";"Komáromi";"Komárom";"1";"–";6991;19126;8664;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Komárom";2900;NA;"05449";"város";"Komárom-Esztergom";"112 1";"Komáromi";"Komárom";"1";"–";6991;19126;8664;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Komárom";2903;"Koppánymonostor";"05449";"város";"Komárom-Esztergom";"112 1";"Komáromi";"Komárom";"1";"–";6991;19126;8664;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Komárom";2921;"Szõny";"05449";"város";"Komárom-Esztergom";"112 1";"Komáromi";"Komárom";"1";"–";6991;19126;8664;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Komjáti";3765;NA;"10612";"község";"Borsod-Abaúj-Zemplén";"055 0";"Edelényi";"Edelény";"6";"Bódvaszilas";1108;173;140;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -1978,7 +1976,7 @@
 "Mezõhék";5453;NA;"26286";"község";"Jász-Nagykun-Szolnok";"166 0";"Mezõtúri";"Mezõtúr";"5";"Mezõtúr";8982;334;164;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Mezõkeresztes";3441;NA;"11323";"város";"Borsod-Abaúj-Zemplén";"060 0";"Mezõkövesdi";"Mezõkövesd";"1";"–";7426;3565;1663;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Mezõkomárom";8137;NA;"05689";"község";"Fejér";"079 0";"Enyingi";"Enying";"5";"Dég";2905;895;410;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
-"Mezõkovácsháza";5800;" ";"30322";"város";"Békés";"049 1";"Mezõkovácsházai";"Mezõkovácsháza";"1";"–";6259;5787;2925;NA;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA
+"Mezõkovácsháza";5800;NA;"30322";"város";"Békés";"049 1";"Mezõkovácsházai";"Mezõkovácsháza";"1";"–";6259;5787;2925;NA;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA
 "Mezõkövesd";3400;NA;"19433";"város";"Borsod-Abaúj-Zemplén";"060 1";"Mezõkövesdi";"Mezõkövesd";"2";"Helyben – Locally";10049;16072;7548;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Mezõladány";4641;NA;"32656";"község";"Szabolcs-Szatmár-Bereg";"153 0";"Kisvárdai";"Kisvárda";"2";"Helyben – Locally";1407;1044;355;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Mezõlak";8514;NA;"23560";"község";"Veszprém";"187 0";"Pápai";"Pápa";"6";"Nemesgörzsöny";2158;987;393;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -2271,7 +2269,7 @@
 "Nyírderzs";4332;NA;"05041";"község";"Szabolcs-Szatmár-Bereg";"156 0";"Nyírbátori";"Nyírbátor";"5";"Nyírbogát";1701;642;268;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Nyíregyháza";4246;"Butykatelep";"17206";"megyeszékhely, megyei jogú város";"Szabolcs-Szatmár-Bereg";"157 1";"Nyíregyházi";"Nyíregyháza";"1";"–";27454;116799;52275;NA;NA;NA;NA;"1";"1";"1";"1";NA;"1";NA;"1";NA;"1"
 "Nyíregyháza";4481;"Sóstóhegy";"17206";"megyeszékhely, megyei jogú város";"Szabolcs-Szatmár-Bereg";"157 1";"Nyíregyházi";"Nyíregyháza";"1";"–";27454;116799;52275;NA;NA;NA;NA;"1";"1";"1";"1";NA;"1";NA;"1";NA;"1"
-"Nyíregyháza";4400;" ";"17206";"megyeszékhely, megyei jogú város";"Szabolcs-Szatmár-Bereg";"157 1";"Nyíregyházi";"Nyíregyháza";"1";"–";27454;116799;52275;NA;NA;NA;NA;"1";"1";"1";"1";NA;"1";NA;"1";NA;"1"
+"Nyíregyháza";4400;NA;"17206";"megyeszékhely, megyei jogú város";"Szabolcs-Szatmár-Bereg";"157 1";"Nyíregyházi";"Nyíregyháza";"1";"–";27454;116799;52275;NA;NA;NA;NA;"1";"1";"1";"1";NA;"1";NA;"1";NA;"1"
 "Nyíregyháza";4405;"Borbánya";"17206";"megyeszékhely, megyei jogú város";"Szabolcs-Szatmár-Bereg";"157 1";"Nyíregyházi";"Nyíregyháza";"1";"–";27454;116799;52275;NA;NA;NA;NA;"1";"1";"1";"1";NA;"1";NA;"1";NA;"1"
 "Nyíregyháza";4431;"Sóstófürdõ";"17206";"megyeszékhely, megyei jogú város";"Szabolcs-Szatmár-Bereg";"157 1";"Nyíregyházi";"Nyíregyháza";"1";"–";27454;116799;52275;NA;NA;NA;NA;"1";"1";"1";"1";NA;"1";NA;"1";NA;"1"
 "Nyíregyháza";4432;"Nyírszõlõs";"17206";"megyeszékhely, megyei jogú város";"Szabolcs-Szatmár-Bereg";"157 1";"Nyíregyházi";"Nyíregyháza";"1";"–";27454;116799;52275;NA;NA;NA;NA;"1";"1";"1";"1";NA;"1";NA;"1";NA;"1"
@@ -2396,7 +2394,7 @@
 "Pakod";8799;NA;"24271";"község";"Zala";"198 0";"Zalaszentgróti";"Zalaszentgrót";"5";"Kehidakustány";1255;830;351;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Pákozd";8095;NA;"25751";"nagyközség";"Fejér";"080 0";"Gárdonyi";"Gárdony";"1";"–";4330;3214;1193;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Paks";7027;"Dunakömlõd";"04862";"város";"Tolna";"172 1";"Paksi";"Paks";"1";"–";15408;18623;8484;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
-"Paks";7030;" ";"04862";"város";"Tolna";"172 1";"Paksi";"Paks";"1";"–";15408;18623;8484;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
+"Paks";7030;NA;"04862";"város";"Tolna";"172 1";"Paksi";"Paks";"1";"–";15408;18623;8484;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Palé";7370;NA;"23764";"község";"Baranya";"025 0";"Hegyháti";"Sásd";"6";"Sásd";215;91;37;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Pálfa";7042;NA;"09371";"község";"Tolna";"172 0";"Paksi";"Paks";"5";"Nagydorog";3474;1483;662;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Pálfiszeg";8990;NA;"14720";"község";"Zala";"197 0";"Zalaegerszegi";"Zalaegerszeg";"6";"Gellénháza";559;153;64;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -2435,9 +2433,9 @@
 "Parasznya";3777;NA;"26745";"község";"Borsod-Abaúj-Zemplén";"061 0";"Miskolci";"Miskolc";"2";"Helyben – Locally";1676;1111;439;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Pári";7091;NA;"09618";"község";"Tolna";"174 0";"Tamási";"Tamási";"6";"Regöly";1305;610;278;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Paszab";4475;NA;"31972";"község";"Szabolcs-Szatmár-Bereg";"151 0";"Ibrányi";"Ibrány";"5";"Tiszatelek";1296;1162;405;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Pásztó";3060;" ";"07409";"város";"Nógrád";"118 1";"Pásztói";"Pásztó";"1";"–";7260;9099;4121;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Pásztó";3065;"Hasznos";"07409";"város";"Nógrád";"118 1";"Pásztói";"Pásztó";"1";"–";7260;9099;4121;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Pásztó";3060;NA;"07409";"város";"Nógrád";"118 1";"Pásztói";"Pásztó";"1";"–";7260;9099;4121;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Pásztó";3082;"Mátrakeresztes";"07409";"város";"Nógrád";"118 1";"Pásztói";"Pásztó";"1";"–";7260;9099;4121;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Pásztó";3065;"Hasznos";"07409";"város";"Nógrád";"118 1";"Pásztói";"Pásztó";"1";"–";7260;9099;4121;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Pásztori";9311;NA;"23481";"község";"Gyõr-Moson-Sopron";"086 0";"Csornai";"Csorna";"6";"Bágyogszovát";852;385;118;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Pat";8825;NA;"29656";"község";"Zala";"196 0";"Nagykanizsai";"Nagykanizsa";"6";"Galambok";833;190;127;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Patak";2648;NA;"07199";"község";"Nógrád";"116 0";"Balassagyarmati";"Balassagyarmat";"6";"Drégelypalánk";1615;940;420;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -2471,6 +2469,7 @@
 "Pécs";7630;"";"19415";"megyeszékhely, megyei jogú város";"Baranya";"028 1";"Pécsi";"Pécs";"1";"–";16277;142873;72965;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA;NA
 "Pécs";7627;"";"19415";"megyeszékhely, megyei jogú város";"Baranya";"028 1";"Pécsi";"Pécs";"1";"–";16277;142873;72965;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA;NA
 "Pécs";7621;"";"19415";"megyeszékhely, megyei jogú város";"Baranya";"028 1";"Pécsi";"Pécs";"1";"–";16277;142873;72965;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA;NA
+"Pécs";7668;"";"19415";"megyeszékhely, megyei jogú város";"Baranya";"028 1";"Pécsi";"Pécs";"1";"–";16277;142873;72965;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA;NA
 "Pécs";7693;"";"19415";"megyeszékhely, megyei jogú város";"Baranya";"028 1";"Pécsi";"Pécs";"1";"–";16277;142873;72965;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA;NA
 "Pécs";7639;"";"19415";"megyeszékhely, megyei jogú város";"Baranya";"028 1";"Pécsi";"Pécs";"1";"–";16277;142873;72965;NA;"1";"1";"1";"1";"1";"1";"1";NA;"1";"1";NA;NA;NA
 "Pécsbagota";7951;NA;"21519";"község";"Baranya";"032 0";"Szentlõrinci";"Szentlõrinc";"6";"Királyegyháza";607;106;44;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -2696,7 +2695,7 @@
 "Sajóvelezd";3656;NA;"27757";"község";"Borsod-Abaúj-Zemplén";"063 0";"Putnoki";"Putnok";"5";"Serényfalva";2302;728;304;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Sajtoskál";9632;NA;"10579";"község";"Vas";"179 0";"Sárvári";"Sárvár";"6";"Bõ";941;354;170;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Salföld";8256;NA;"30793";"község";"Veszprém";"189 0";"Tapolcai";"Tapolca";"6";"Kõvágóörs";518;64;44;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
-"Salgótarján";3100;" ";"25788";"megyeszékhely, megyei jogú város";"Nógrád";"120 1";"Salgótarjáni";"Salgótarján";"1";"–";9797;33579;18036;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;"1";NA;NA
+"Salgótarján";3100;NA;"25788";"megyeszékhely, megyei jogú város";"Nógrád";"120 1";"Salgótarjáni";"Salgótarján";"1";"–";9797;33579;18036;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;"1";NA;NA
 "Salgótarján";3102;"Baglyasalja";"25788";"megyeszékhely, megyei jogú város";"Nógrád";"120 1";"Salgótarjáni";"Salgótarján";"1";"–";9797;33579;18036;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;"1";NA;NA
 "Salgótarján";3104;"Zagyvapálfalva";"25788";"megyeszékhely, megyei jogú város";"Nógrád";"120 1";"Salgótarjáni";"Salgótarján";"1";"–";9797;33579;18036;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;"1";NA;NA
 "Salgótarján";3109;"Salgóbánya";"25788";"megyeszékhely, megyei jogú város";"Nógrád";"120 1";"Salgótarjáni";"Salgótarján";"1";"–";9797;33579;18036;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;"1";NA;NA
@@ -2712,7 +2711,7 @@
 "Sáp";4176;NA;"26116";"község";"Hajdú-Bihar";"102 0";"Püspökladányi";"Püspökladány";"5";"Bihartorda";1922;843;376;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Sáránd";4272;NA;"25007";"község";"Hajdú-Bihar";"096 0";"Derecskei";"Derecske";"2";"Helyben – Locally";2268;2203;858;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Sárazsadány";3942;NA;"20516";"község";"Borsod-Abaúj-Zemplén";"064 0";"Sárospataki";"Sárospatak";"6";"Bodrogolaszi";1531;227;177;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
-"Sárbogárd";7000;" ";"23694";"város";"Fejér";"084 1";"Sárbogárdi";"Sárbogárd";"1";"–";18933;11821;5060;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Sárbogárd";7000;NA;"23694";"város";"Fejér";"084 1";"Sárbogárdi";"Sárbogárd";"1";"–";18933;11821;5060;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Sárbogárd";7003;"Sárszentmiklós";"23694";"város";"Fejér";"084 1";"Sárbogárdi";"Sárbogárd";"1";"–";18933;11821;5060;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Sárbogárd";7018;"Pusztaegres";"23694";"város";"Fejér";"084 1";"Sárbogárdi";"Sárbogárd";"1";"–";18933;11821;5060;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Sárbogárd";7019;"Sárhatvan";"23694";"város";"Fejér";"084 1";"Sárbogárdi";"Sárbogárd";"1";"–";18933;11821;5060;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
@@ -2738,7 +2737,7 @@
 "Sárszentlõrinc";7047;NA;"20817";"község";"Tolna";"172 0";"Paksi";"Paks";"6";"Nagydorog";4669;965;505;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Sárszentmihály";8143;NA;"11776";"község";"Fejér";"085 0";"Székesfehérvári";"Székesfehérvár";"1";"–";3740;2961;1123;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Sarud";3386;NA;"07180";"község";"Heves";"105 0";"Füzesabonyi";"Füzesabony";"6";"Poroszló";5162;1092;576;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Sárvár";9600;" ";"21306";"város";"Vas";"179 1";"Sárvári";"Sárvár";"2";"Helyben – Locally";6465;15226;6454;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Sárvár";9600;NA;"21306";"város";"Vas";"179 1";"Sárvári";"Sárvár";"2";"Helyben – Locally";6465;15226;6454;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Sárvár";9608;"Rábasömjén";"21306";"város";"Vas";"179 1";"Sárvári";"Sárvár";"2";"Helyben – Locally";6465;15226;6454;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Sárvár";9609;"Lánkapuszta";"21306";"város";"Vas";"179 1";"Sárvári";"Sárvár";"2";"Helyben – Locally";6465;15226;6454;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Sásd";7370;NA;"32160";"város";"Baranya";"025 1";"Hegyháti";"Sásd";"2";"Helyben – Locally";1488;2935;1365;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
@@ -2770,7 +2769,7 @@
 "Simonfa";7474;NA;"32780";"község";"Somogy";"143 0";"Kaposvári";"Kaposvár";"2";"Helyben – Locally";1100;344;142;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Simontornya";7081;NA;"20783";"város";"Tolna";"174 0";"Tamási";"Tamási";"1";"–";3383;3839;1851;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Sióagárd";7171;NA;"25645";"község";"Tolna";"173 0";"Szekszárdi";"Szekszárd";"6";"Kölesd";2440;1172;533;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
-"Siófok";8600;" ";"17631";"város";"Somogy";"146 1";"Siófoki";"Siófok";"2";"Helyben – Locally";12466;25708;14251;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Siófok";8600;NA;"17631";"város";"Somogy";"146 1";"Siófoki";"Siófok";"2";"Helyben – Locally";12466;25708;14251;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Siójut";8652;NA;"23092";"község";"Somogy";"146 0";"Siófoki";"Siófok";"6";"Siófok";1073;613;257;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Sirok";3332;NA;"08527";"község";"Heves";"109 0";"Pétervásárai";"Pétervására";"2";"Helyben – Locally";6339;1690;947;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Sitke";9671;NA;"30748";"község";"Vas";"179 0";"Sárvári";"Sárvár";"6";"Sárvár";2720;741;298;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -3001,15 +3000,15 @@
 "Szeremle";6512;NA;"28820";"község";"Bács-Kiskun";"035 0";"Bajai";"Baja";"2";"Helyben – Locally";3406;1321;620;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Szerencs";3902;"Ond";"30739";"város";"Borsod-Abaúj-Zemplén";"066 1";"Szerencsi";"Szerencs";"1";"–";3668;8581;3816;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Szerencs";3900;NA;"30739";"város";"Borsod-Abaúj-Zemplén";"066 1";"Szerencsi";"Szerencs";"1";"–";3668;8581;3816;NA;NA;NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
-"Szerep";4163;NA;"33437";"község";"Hajdú-Bihar";"102 0";"Püspökladányi";"Püspökladány";"5";"Püspökladány";5604;1580;522;NA;NA;"                                   ";NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Szerep";4162;"Hosszúhát";"33437";"község";"Hajdú-Bihar";"102 0";"Püspökladányi";"Püspökladány";"5";"Püspökladány";5604;1580;522;NA;NA;"                                   ";NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Szerep";4163;NA;"33437";"község";"Hajdú-Bihar";"102 0";"Püspökladányi";"Püspökladány";"5";"Püspökladány";5604;1580;522;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Szerep";4162;"Hosszúhát";"33437";"község";"Hajdú-Bihar";"102 0";"Püspökladányi";"Püspökladány";"5";"Püspökladány";5604;1580;522;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Szergény";9523;NA;"27793";"község";"Vas";"176 0";"Celldömölki";"Celldömölk";"6";"Kenyeri";1561;238;168;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Szigetbecse";2321;NA;"26259";"község";"Pest";"134 0";"Ráckevei";"Ráckeve";"2";"Helyben – Locally";1712;1287;543;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Szigetcsép";2317;NA;"07870";"község";"Pest";"134 0";"Ráckevei";"Ráckeve";"1";"–";1820;2354;967;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;"1";NA;NA;NA
 "Szigethalom";2315;NA;"13277";"város";"Pest";"136 0";"Szigetszentmiklósi";"Szigetszentmiklós";"1";"–";912;17791;6234;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Szigetmonostor";2015;NA;"26213";"község";"Pest";"135 0";"Szentendrei";"Szentendre";"1";"–";2351;2577;984;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Szigetszentmárton";2318;NA;"15185";"község";"Pest";"134 0";"Ráckevei";"Ráckeve";"1";"–";1073;2284;928;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
-"Szigetszentmiklós";2310;" ";"28954";"város";"Pest";"136 1";"Szigetszentmiklósi";"Szigetszentmiklós";"1";"–";4565;39310;15238;NA;"1";NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
+"Szigetszentmiklós";2310;NA;"28954";"város";"Pest";"136 1";"Szigetszentmiklósi";"Szigetszentmiklós";"1";"–";4565;39310;15238;NA;"1";NA;NA;NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Szigetújfalu";2319;NA;"22114";"község";"Pest";"134 0";"Ráckevei";"Ráckeve";"1";"–";1083;2004;881;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Szigetvár";7900;NA;"26578";"város";"Baranya";"033 1";"Szigetvári";"Szigetvár";"1";"–";3952;10421;4454;NA;NA;NA;"1";NA;"1";NA;"1";NA;NA;NA;NA;NA;NA
 "Szigliget";8264;NA;"24891";"község";"Veszprém";"189 0";"Tapolcai";"Tapolca";"2";"Helyben – Locally";3426;792;414;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -3033,7 +3032,7 @@
 "Szólád";8625;NA;"15194";"község";"Somogy";"146 0";"Siófoki";"Siófok";"6";"Balatonföldvár";1998;480;261;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Szolnok";5000;NA;"27854";"megyeszékhely, megyei jogú város";"Jász-Nagykun-Szolnok";"167 1";"Szolnoki";"Szolnok";"1";"–";18724;71285;34817;NA;NA;NA;NA;"1";NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Szolnok";5008;"Szandaszõlõs";"27854";"megyeszékhely, megyei jogú város";"Jász-Nagykun-Szolnok";"167 1";"Szolnoki";"Szolnok";"1";"–";18724;71285;34817;NA;NA;NA;NA;"1";NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Szombathely";9700;" ";"03009";"megyeszékhely, megyei jogú város";"Vas";"181 1";"Szombathelyi";"Szombathely";"1";"–";9750;78407;35208;NA;NA;NA;"1";NA;"1";NA;"1";NA;NA;NA;NA;"1";NA
+"Szombathely";9700;NA;"03009";"megyeszékhely, megyei jogú város";"Vas";"181 1";"Szombathelyi";"Szombathely";"1";"–";9750;78407;35208;NA;NA;NA;"1";NA;"1";NA;"1";NA;NA;NA;NA;"1";NA
 "Szombathely";9707;"Herény";"03009";"megyeszékhely, megyei jogú város";"Vas";"181 1";"Szombathelyi";"Szombathely";"1";"–";9750;78407;35208;NA;NA;NA;"1";NA;"1";NA;"1";NA;NA;NA;NA;"1";NA
 "Szomód";2896;NA;"22619";"község";"Komárom-Esztergom";"114 0";"Tatai";"Tata";"1";"–";2839;2121;781;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Szomolya";3411;NA;"18892";"község";"Borsod-Abaúj-Zemplén";"060 0";"Mezõkövesdi";"Mezõkövesd";"6";"Mezõkövesd";2269;1538;708;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -3091,7 +3090,7 @@
 "Tápiószõlõs";2769;NA;"02769";"község";"Pest";"124 0";"Ceglédi";"Cegléd";"1";"–";3181;2781;1356;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Táplánszentkereszt";9761;NA;"32045";"község";"Vas";"181 0";"Szombathelyi";"Szombathely";"1";"–";2008;2552;871;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Tapolca";8297;"Diszel";"29434";"város";"Veszprém";"189 1";"Tapolcai";"Tapolca";"2";"Helyben – Locally";6346;14988;6943;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
-"Tapolca";8300;" ";"29434";"város";"Veszprém";"189 1";"Tapolcai";"Tapolca";"2";"Helyben – Locally";6346;14988;6943;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
+"Tapolca";8300;NA;"29434";"város";"Veszprém";"189 1";"Tapolcai";"Tapolca";"2";"Helyben – Locally";6346;14988;6943;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Tapsony";8718;NA;"24615";"község";"Somogy";"144 0";"Marcali";"Marcali";"6";"Mesztegnyõ";3161;637;390;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Tápszentmiklós";9094;NA;"21971";"község";"Gyõr-Moson-Sopron";"090 0";"Pannonhalmi";"Pannonhalma";"2";"Helyben – Locally";2075;938;345;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Tar";3073;NA;"32896";"község";"Nógrád";"118 0";"Pásztói";"Pásztó";"5";"Szurdokpüspöki";2734;1792;857;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
@@ -3121,8 +3120,8 @@
 "Taszár";7261;NA;"04932";"község";"Somogy";"143 0";"Kaposvári";"Kaposvár";"1";"–";1729;1937;810;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Tát";2534;NA;"08758";"város";"Komárom-Esztergom";"110 0";"Esztergomi";"Esztergom";"2";"Helyben – Locally";1206;5273;2057;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Tata";2835;"Agostyán";"20127";"város";"Komárom-Esztergom";"114 1";"Tatai";"Tata";"2";"Helyben – Locally";7811;23441;10162;NA;NA;NA;NA;"1";"1";NA;"1";NA;NA;NA;NA;NA;NA
-"Tata";2890;" ";"20127";"város";"Komárom-Esztergom";"114 1";"Tatai";"Tata";"2";"Helyben – Locally";7811;23441;10162;NA;NA;NA;NA;"1";"1";NA;"1";NA;NA;NA;NA;NA;NA
-"Tatabánya";2800;" ";"18157";"megyeszékhely, megyei jogú város";"Komárom-Esztergom";"115 1";"Tatabányai";"Tatabánya";"1";"–";9142;65845;30844;NA;NA;"1";NA;"1";"1";NA;"1";NA;NA;NA;"1";NA;NA
+"Tata";2890;NA;"20127";"város";"Komárom-Esztergom";"114 1";"Tatai";"Tata";"2";"Helyben – Locally";7811;23441;10162;NA;NA;NA;NA;"1";"1";NA;"1";NA;NA;NA;NA;NA;NA
+"Tatabánya";2800;NA;"18157";"megyeszékhely, megyei jogú város";"Komárom-Esztergom";"115 1";"Tatabányai";"Tatabánya";"1";"–";9142;65845;30844;NA;NA;"1";NA;"1";"1";NA;"1";NA;NA;NA;"1";NA;NA
 "Tataháza";6451;NA;"14544";"község";"Bács-Kiskun";"034 0";"Bácsalmási";"Bácsalmás";"6";"Kunbaja";2610;1148;664;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Tatárszentgyörgy";2375;NA;"27386";"község";"Pest";"125 0";"Dabasi";"Dabas";"1";"–";5506;1787;689;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Tázlár";6236;NA;"24998";"község";"Bács-Kiskun";"039 0";"Kiskõrösi";"Kiskõrös";"6";"Bócsa";7338;1767;862;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -3181,7 +3180,7 @@
 "Tiszaeszlár";4464;NA;"09113";"község";"Szabolcs-Szatmár-Bereg";"158 0";"Tiszavasvári";"Tiszavasvári";"1";"–";5453;2422;1033;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
 "Tiszaföldvár";5430;NA;"13815";"város";"Jász-Nagykun-Szolnok";"165 0";"Kunszentmártoni";"Kunszentmárton";"1";"–";8034;10417;4690;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Tiszaföldvár";5461;"Homok";"13815";"város";"Jász-Nagykun-Szolnok";"165 0";"Kunszentmártoni";"Kunszentmárton";"1";"–";8034;10417;4690;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
-"Tiszafüred";5350;" ";"29726";"város";"Jász-Nagykun-Szolnok";"168 1";"Tiszafüredi";"Tiszafüred";"1";"–";16219;10631;5242;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+"Tiszafüred";5350;NA;"29726";"város";"Jász-Nagykun-Szolnok";"168 1";"Tiszafüredi";"Tiszafüred";"1";"–";16219;10631;5242;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Tiszafüred";5358;"Tiszaörvény";"29726";"város";"Jász-Nagykun-Szolnok";"168 1";"Tiszafüredi";"Tiszafüred";"1";"–";16219;10631;5242;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Tiszafüred";5359;"Kócsújfalu";"29726";"város";"Jász-Nagykun-Szolnok";"168 1";"Tiszafüredi";"Tiszafüred";"1";"–";16219;10631;5242;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Tiszagyenda";5233;NA;"30304";"község";"Jász-Nagykun-Szolnok";"164 0";"Kunhegyesi";"Kunhegyes";"5";"Tiszaroff";3693;943;518;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
@@ -3277,7 +3276,7 @@
 "Tömörkény";6646;NA;"25900";"község";"Csongrád";"070 0";"Csongrádi";"Csongrád";"2";"Helyben – Locally";5391;1660;947;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Törökbálint";2045;NA;"06859";"város";"Pest";"127 0";"Érdi";"Érd";"1";"–";2940;14045;4848;NA;NA;NA;NA;NA;"1";NA;"1";"1";NA;NA;NA;NA;NA
 "Törökkoppány";7285;NA;"20093";"község";"Somogy";"147 0";"Tabi";"Tab";"2";"Helyben – Locally";2580;468;229;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
-"Törökszentmiklós";5200;" ";"27313";"város";"Jász-Nagykun-Szolnok";"169 1";"Törökszentmiklósi";"Törökszentmiklós";"1";"–";18516;19827;9006;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Törökszentmiklós";5200;NA;"27313";"város";"Jász-Nagykun-Szolnok";"169 1";"Törökszentmiklósi";"Törökszentmiklós";"1";"–";18516;19827;9006;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Törökszentmiklós";5212;"Surjány";"27313";"város";"Jász-Nagykun-Szolnok";"169 1";"Törökszentmiklósi";"Törökszentmiklós";"1";"–";18516;19827;9006;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Törtel";2747;NA;"22008";"község";"Pest";"124 0";"Ceglédi";"Cegléd";"1";"–";8416;4243;1886;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Töttös";7755;NA;"04136";"község";"Baranya";"024 0";"Bólyi";"Bóly";"6";"Bóly";2299;532;258;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA;NA;NA
@@ -3499,7 +3498,7 @@
 "Zalaboldogfa";8992;NA;"28495";"község";"Zala";"197 0";"Zalaegerszegi";"Zalaegerszeg";"6";"Zalaszentgyörgy";1147;312;137;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Zalacsány";8782;NA;"04002";"község";"Zala";"193 0";"Keszthelyi";"Keszthely";"2";"Helyben – Locally";1607;910;392;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Zalacséb";8996;NA;"02486";"község";"Zala";"197 0";"Zalaegerszegi";"Zalaegerszeg";"6";"Zalalövõ";963;465;194;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
-"Zalaegerszeg";8900;" ";"32054";"megyeszékhely, megyei jogú város";"Zala";"197 1";"Zalaegerszegi";"Zalaegerszeg";"1";"–";10246;57403;26170;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
+"Zalaegerszeg";8900;NA;"32054";"megyeszékhely, megyei jogú város";"Zala";"197 1";"Zalaegerszegi";"Zalaegerszeg";"1";"–";10246;57403;26170;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Zalaegerszeg";8904;"Andráshida";"32054";"megyeszékhely, megyei jogú város";"Zala";"197 1";"Zalaegerszegi";"Zalaegerszeg";"1";"–";10246;57403;26170;NA;NA;NA;NA;NA;NA;NA;"1";NA;NA;NA;NA;NA;NA
 "Zalaerdõd";8344;NA;"29993";"község";"Veszprém";"188 0";"Sümegi";"Sümeg";"6";"Gógánfa";1769;218;163;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 "Zalagyömörõ";8349;NA;"27207";"község";"Veszprém";"188 0";"Sümegi";"Sümeg";"6";"Gógánfa";1111;423;196;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
