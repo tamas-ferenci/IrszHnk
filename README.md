@@ -19,10 +19,12 @@ elvégzi a fenti állományok letöltését, végrehajtja a szükséges
 adattranszformációkat és a hozzárendelést, majd az eredményt
 [CSV](https://github.com/tamas-ferenci/IrszHnk/blob/master/IrszHnk.csv)
 és [RDS](https://github.com/tamas-ferenci/IrszHnk/blob/master/IrszHnk.rds)
-formátumokban kimenti.
+formátumokban kimenti. A
+szkript [R nyelven](https://www.youtube.com/@FerenciTamas/playlists?view=50&sort=dd&shelf_id=2) készült.
 
 A repozitórium a 2024. 11. 29. dátum szerinti állapotot tartalmazza.
-A bemeneti állományok archív változatait szintén elérhetővé teszi.
+A bemeneti állományok archív változatait
+szintén [elérhetővé teszi](https://github.com/tamas-ferenci/IrszHnk/blob/master/archiv.zip).
 
 ## Angol / English
 
@@ -39,6 +41,8 @@ downloads the abovementioned data, performs the necessary
 data transformations and merging, and then saves the result in
 [CSV](https://github.com/tamas-ferenci/IrszHnk/blob/master/IrszHnk.csv)
 and [RDS](https://github.com/tamas-ferenci/IrszHnk/blob/master/IrszHnk.rds) formats.
+The script uses [R language](https://www.youtube.com/@FerenciTamas/playlists?view=50&sort=dd&shelf_id=2).
 
 The repository contains the results as of 29-Nov-2024. It also
-makes the archive versions of the input data available.
+makes the archive versions of the input
+data [available](https://github.com/tamas-ferenci/IrszHnk/blob/master/archiv.zip).
