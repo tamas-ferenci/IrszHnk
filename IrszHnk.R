@@ -1,33 +1,41 @@
-IrszUrl <- "https://www.posta.hu/static/internet/download/Iranyitoszam-Internet_uj.xlsx"
-HnkUrl <- "https://www.ksh.hu/docs/hun/hnk/hnk_2019.xlsx"
+IrszUrl <- paste0("https://www.posta.hu/static/internet/",
+                  "download/Iranyitoszam-Internet_uj.xlsx")
+HnkUrl <- paste0("https://www.ksh.hu/docs/helysegnevtar/",
+                 "hnt_letoltes_2024.xlsx")
 
-temp <- tempfile(fileext = paste0(".",tools::file_ext(IrszUrl)))
+temp <- tempfile(fileext = paste0(".", tools::file_ext(IrszUrl)))
 download.file(IrszUrl, temp, mode = "wb")
-Irsz <- rio::import(temp, sheet = "Települések")
+Irsz <- readxl::read_excel(temp, sheet = "Települések",
+                           .name_repair = "universal")
 Irsz <- Irsz[!grepl("*", Irsz$Település, fixed = TRUE), ]
-IrszTemp <- rio::import(temp, sheet = "Bp.u.", guess_max = 2000)
+IrszTemp <- readxl::read_excel(temp, sheet = "Bp.u.",
+                               guess_max = 10000)
 IrszTemp$KER[IrszTemp$KER%in%c("0", "Margitsziget")] <- "XIII."
-IrszTemp$Település <- paste0("Budapest ", formatC(as.numeric(as.roman(gsub(".", "", IrszTemp$KER, fixed = TRUE))),
-                                                  width = 2, flag = "0"), ". ker.")
+IrszTemp$Település <- paste0("Budapest ", formatC(as.numeric(
+  as.roman(gsub(".", "", IrszTemp$KER, fixed = TRUE))),
+  width = 2, flag = "0"), ". ker.")
 IrszTemp$Településrész <- ""
-Irsz <- rbind(Irsz, IrszTemp[ , c("IRSZ", "Település", "Településrész")])
-for (t in c("Miskolc", "Debrecen", "Szeged", "Pécs", "Győr")) {
-  IrszTemp <- rio::import(temp, sheet = paste0(t, " u."))
+Irsz <- rbind(Irsz, IrszTemp[ , c("IRSZ", "Település",
+                                  "Településrész")])
+for (tel in c("Miskolc", "Debrecen", "Szeged", "Pécs", "Győr")) {
+  IrszTemp <- readxl::read_excel(temp, sheet = paste0(tel, " u."),
+                                 .name_repair = "universal")
   names(IrszTemp)[names(IrszTemp)=="IRSZ."] <- "IRSZ"
-  IrszTemp$Település <- t
+  IrszTemp$Település <- tel
   IrszTemp$Településrész <- ""
-  Irsz <- rbind(Irsz, IrszTemp[ , c("IRSZ", "Település", "Településrész")])
+  Irsz <- rbind(Irsz, IrszTemp[ , c("IRSZ", "Település",
+                                    "Településrész")])
 }
 unlink(temp)
 Irsz <- Irsz[!duplicated(Irsz),]
 
-Hnk <- rio::import(HnkUrl, sheet = 1)
-Hnk <- Hnk[!is.na(Hnk$Helység),]
-names(Hnk)[1:3] <- paste0(names(Hnk)[1], ".", Hnk[1, 1:3])
-names(Hnk)[5:7] <- paste0(names(Hnk)[5], Hnk[1, 5:7])
-names(Hnk)[8:9] <- paste0(names(Hnk)[8], ".", Hnk[1, 8:9])
-names(Hnk)[14:26] <- paste0(names(Hnk)[14], ".", Hnk[1, 14:26])
-Hnk <- Hnk[-1, ]
+temp <- tempfile(fileext = paste0(".", tools::file_ext(HnkUrl)))
+download.file(HnkUrl, temp, mode = "wb")
+Hnk <- readxl::read_excel(temp, sheet = 1, skip = 2,
+                          .name_repair = "universal")
+unlink(temp)
+colnames(Hnk)[14:26] <- paste0("NemzetisegiOnkormanyzat_", 
+                               colnames(Hnk)[14:26])
 
 names(Irsz)[2] <- names(Hnk)[1]
 
@@ -35,5 +43,6 @@ IrszHnk <- merge(Irsz, Hnk, by = "Helység.megnevezése")
 
 IrszHnk <- IrszHnk[!duplicated(IrszHnk), ]
 
-write.csv2(IrszHnk, "IrszHnk.csv", row.names = FALSE)
-saveRDS(IrszHnk, "IrszHnk.rds" )
+data.table::fwrite(IrszHnk, "IrszHnk.csv", row.names = FALSE,
+                   dec = ",", sep =";", bom = TRUE)
+saveRDS(IrszHnk, "IrszHnk.rds")
