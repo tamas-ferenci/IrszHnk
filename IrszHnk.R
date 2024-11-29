@@ -14,7 +14,7 @@ IrszTemp$KER[IrszTemp$KER%in%c("0", "Margitsziget")] <- "XIII."
 IrszTemp$Település <- paste0("Budapest ", formatC(as.numeric(
   as.roman(gsub(".", "", IrszTemp$KER, fixed = TRUE))),
   width = 2, flag = "0"), ". ker.")
-IrszTemp$Településrész <- ""
+IrszTemp$Településrész <- NA
 Irsz <- rbind(Irsz, IrszTemp[ , c("IRSZ", "Település",
                                   "Településrész")])
 for (tel in c("Miskolc", "Debrecen", "Szeged", "Pécs", "Győr")) {
@@ -22,7 +22,7 @@ for (tel in c("Miskolc", "Debrecen", "Szeged", "Pécs", "Győr")) {
                                  .name_repair = "universal")
   names(IrszTemp)[names(IrszTemp)=="IRSZ."] <- "IRSZ"
   IrszTemp$Település <- tel
-  IrszTemp$Településrész <- ""
+  IrszTemp$Településrész <- NA
   Irsz <- rbind(Irsz, IrszTemp[ , c("IRSZ", "Település",
                                     "Településrész")])
 }
